@@ -18,3 +18,15 @@
 .readyToTakeContainer{
   padding: 0 10%;
 }
+
+@media screen and (max-width: 1440px) {
+  .readyToTakeContainer{
+    padding: 1rem 5%
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .readyToTakeContainer{
+    padding: 1rem 2rem;
+  }
+}

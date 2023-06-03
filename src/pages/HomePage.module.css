@@ -100,21 +100,7 @@
   position: relative;
   color: var(--color-orange);
 }
-.subscriptions {
-  border: 0;
-  padding: 0;
-  background-color: transparent;
-  font-size: var(--font-size-lg);
-  font-family: var(--font-poppins);
-  color: var(--color-black);
-  text-align: left;
-  display: inline-block;
-}
-.smsBetting,
-.subscriptions {
-  position: relative;
-  cursor: pointer;
-}
+
 .navbar {
   position: relative;
   top: 20px;
@@ -208,9 +194,8 @@
 
 
 .image2Icon {
-  position: absolute;
-  top: 0;
-  left: 868px;
+  position: relative;
+  left: 75%;
   width: 276px;
   height: 500px;
   object-fit: cover;
@@ -225,7 +210,7 @@
   font-family: var(--font-magra);
 }
 .frameItem {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   border-radius: var(--br-xl);
@@ -233,8 +218,8 @@
   height: 41px;
 }
 .joinNow {
-  position: absolute;
-  top: 6.47px;
+  position: relative;
+  top: -40px;
   left: 29.38px;
   display: inline-block;
   width: 117.5px;
@@ -262,17 +247,21 @@
 }
 
 .homDescription{
-
+ 
   position: relative;
-  top: 100px;
+  top: -500px;
   left: 0px;
   height: 500px;
 }
 .homeDesp {
+  border: 2px solid#FF9900;
   position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   top: 30px;
-  left: 50px;
-  width: 80%;
+  left: 100px;
+  width: 87%;
   height: 500px;
   font-size: 50px;
   color: var(--color-black);
@@ -291,6 +280,62 @@
 .sideNavIcon {
   display: none;
 }
+@media (min-width: 793px) and (max-width: 1092px){
+  .homeDesp{
+    margin-left: -50px;
+  }
+  .vectorGroup{
+      left: 50%;
+      top: 500px;
+  }
+  .vectorParent{
+      position: relative;
+      top: -60%;
+      left: 15%;
+  }
+  .welcomeToBetContainer{
+     position: relative;
+     left: 1%;
+     top: -70%;
+     text-align: center;
+  }
+  .becomeOneOf{
+      position: relative;
+      top:-70%;
+      left: 36%;
+  }
+  
+  .loginsignup{
+      font-size: small;
+      
+  }
+  .login{
+      font-size: small;
+      height: 30px;
+  }
+  .signup{
+      height: 26px;
+  }
+  .navbar{
+     top: 30%;
+     left: -22%;
+     font-size: small;
+     gap: 15px;
+  }
+  .bwk{
+      font-size: 40px;
+      font-weight: 400;
+  }
+  .betWiseKenya{
+      font-size: small;
+      top: 70px;
+      left: 42px;
+  }
+  .image2Icon{
+    position: relative;
+    left:70%;
+  }
+} 
 @media (min-width: 200px) and (max-width: 792px) {
   .navbar{
     display: none;
@@ -360,18 +405,19 @@
   .homeTop{
     display: flex;
     flex-wrap: wrap;
+
     justify-content: center;
     text-align: center;
     width: 95%;
     margin-top: 10px;
     margin-left: 10px;
-    border: 1px solid black;
+    border-radius: 200px;
     height: 40vh;
   }
   .image1Icon {
     position: relative;
     
-    border-radius: var(--br-xl);
+    border: 3px solid #FF9900;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -413,7 +459,7 @@
   .vectorParent {
 
     top: 300px;
-    left: 160px;
+    left: 42%;
     width: 12%;
     height: 16px;
     font-size: var(--font-size-5xs);
@@ -432,20 +478,22 @@
     width: 95%;
     top: 20px;
     left: 10px;
-    height: 620px;
+    height: 40%;
   }
   .homDescription{
   
     position: relative;
-    top: -320px;
-    height: 620px;
+    top: 0px;
+    left: -280px;
+    height: 100%;
 }
   .image2Icon {
       position: relative;
       justify-content: center;
-      top: 230px;
-      left: 0px;
+      top: 0px;
+      left: 10%;
       object-fit: cover;
+      opacity: 30%;
   }
   .whatWeDoContainer {
     position: relative;
@@ -455,22 +503,25 @@
     color: var(--color-black);
   }
   .joinNow {
-    border-radius: var(--br-xl);
+    
     font-size: var(--font-size-sm);
     width: 100%;
-    /*background-color: #FF9900;*/
+    
     position: relative;
-    top: 5px;
-    left: 35px;
+    top: 0%;
+    left: 0%;
+    border: 2px solid #FF9900;
     text-align: center;
-
     cursor: pointer;
   }
   .vectorGroup{
+    border-radius: var(--br-xl);
+    background-color: #FF9900;
     position: relative;
-    width: 20%;
-    left: 105px;
-    top: 500px;
+    width: 25%;
+    height: 30px;
+    left: 40%;
+    top: 450px;
   }
 
 

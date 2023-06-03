@@ -52,12 +52,12 @@ const HomePage = () => {
         
         <div className={styles.navbar}>
           <div className={styles.home}>Home</div>
-          <button
+          <div
             className={styles.subscriptions}
             onClick={onSubscriptionsClick}
           >
             Subscriptions
-          </button>
+          </div>
           <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
             SMS Betting
           </div>
@@ -110,7 +110,7 @@ const HomePage = () => {
             <span className={styles.forYou}>for you!</span>
           </b>
           <div className={styles.vectorGroup} onClick={onSignupContainerClick}>
-            <img className={styles.frameItem} alt="" src="/rectangle-34.svg" />
+           
             <b className={styles.joinNow}>Join Now</b>
           </div>
           <div className={styles.welcomeToOurContainer}>

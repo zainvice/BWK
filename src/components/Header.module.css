@@ -1,0 +1,94 @@
+.header,
+.navbar,
+.loginsignup{
+  display: flex;
+  font-family: var(--font-poppins);
+}
+
+.header{
+  align-items: center;
+  padding: 1rem   10%;
+}
+
+/* Logo */
+.logo{
+  width: 15%;
+}
+.bwk{
+  font-size: xx-large;
+  color: var(--color-orange);
+}
+.betWiseKenya{
+  font-size: small;
+}
+
+/* Navigation bar */
+.navbar{
+  justify-content: center;
+  gap: 1rem;
+  width: 70%;
+  font-size: 1rem;
+  cursor: pointer;
+  color: var(--color-black) !important;
+}
+.navbar div:hover{
+  color: var(--color-orange) !important;
+}
+
+/* Login Sign Up */
+.loginsignup{
+  width: 15%;
+  height: 2rem;
+  align-items: center;
+  border: 1px solid var(--color-orange);
+  border-radius: 1rem;
+}
+.login, 
+.signup{
+  width: 50%;
+  height: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  line-height: 2rem;
+  cursor: pointer;
+}
+.selectedLogin{
+  color: var(--color-white);
+  background: var(--color-orange);
+  border-radius: 1rem;
+}
+
+/* Side Navigation */
+.sideNav{
+  display: none;
+}
+
+@media screen and (max-width: 1440px) {
+  .header, 
+  .readyToTakeContainer{
+    padding: 1rem 5%
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header, 
+  .readyToTakeContainer{
+    padding: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .logo{
+    width: fit-content;
+  }
+  .header{
+    justify-content: space-between;
+  }
+  .navbar,
+  .loginsignup{
+    display: none;
+  }
+  .sideNav{
+    display: block;
+  }
+}

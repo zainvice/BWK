@@ -3,10 +3,23 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+*,
+*::after, 
+*::before
+.div{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   line-height: normal;
 }
+
+#root{
+  background: var(--color-whitesmoke-200);
+}
+
 :root {
   /* fonts */
   --font-poppins: Poppins;

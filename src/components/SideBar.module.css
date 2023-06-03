@@ -1,114 +1,53 @@
-.betWiseKenya,
-.bwk {
-  position: absolute;
-  display: inline-block;
-}
-.bwk {
-  top: 835px;
-  left: 18px;
-  font-size: var(--font-size-12xl);
-  width: 91px;
-  height: 53px;
-}
-.betWiseKenya {
-  top: 869px;
-  left: 20px;
-  font-size: var(--font-size-sm);
-  color: var(--color-black);
-  width: 178.65px;
-}
-.loginsignupChild,
-.loginsignupItem {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-xl);
-  width: 111.98px;
-  height: 34px;
-  cursor: pointer;
-}
-.loginsignupItem {
-  left: 72.35px;
-  width: 139.65px;
-}
-.login,
-.signUp {
-  position: absolute;
-  top: 4.47px;
-  left: 29.81px;
-  display: inline-block;
-  width: 66.32px;
-  height: 20.4px;
-  cursor: pointer;
-}
-.signUp {
-  top: 6.8px;
-  left: 122.85px;
-  font-size: var(--font-size-base);
+.x{
+  border: none;
+  font-size: 1.2rem; 
+  font-weight: bolder;
   color: var(--color-white);
-  width: 89.15px;
-  height: 14.36px;
+  background: transparent;
+  cursor: pointer;
 }
-.loginsignup {
-  top: 81px;
-  left: 17px;
-  width: 212px;
-  height: 34px;
-  font-size: var(--font-size-mid);
+
+.navbar,
+.loginsignup{
+  display: flex;
+}
+.loginsignup{
+  width: 100%;
+  height: 2rem;
+  margin: 2rem 0;
+  align-items: center;
+  border: 1px solid var(--color-white);
+  border-radius: 1rem;
+}
+
+.navbar{
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login, 
+.signup{
+  width: 50%;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.selectedLogin{
   color: var(--color-orange);
+  background: var(--color-white);
+  border-radius: 1rem;
 }
-.home,
-.loginsignup,
-.x {
-  position: absolute;
-}
-.home {
-  top: 154px;
-  left: 28px;
-  cursor: pointer;
-}
-.x {
-  top: 18px;
-  left: 9px;
-  font-size: var(--font-size-3xl);
-}
-.subscriptions {
-  position: absolute;
-  top: 194px;
-  left: 28px;
-  cursor: pointer;
-}
-.contactUs,
-.liveScore,
-.smsBetting,
-.webBetting {
-  position: absolute;
-  top: 354px;
-  left: 28px;
-  cursor: pointer;
-}
-.liveScore,
-.smsBetting,
-.webBetting {
-  top: 314px;
-}
-.smsBetting,
-.webBetting {
-  top: 274px;
-  left: 29px;
-}
-.smsBetting {
-  top: 234px;
-  left: 28px;
-}
+
 .sideBar {
   position: relative;
   background-color: var(--color-orange);
   width: 246px;
-  height: 903px;
-  overflow: hidden;
-  max-width: 100%;
-  max-height: 100%;
+  height: 100vh;
+  padding: 1rem;
+  box-sizing: border-box;
   text-align: left;
   font-size: var(--font-size-lg);
   color: var(--color-white);

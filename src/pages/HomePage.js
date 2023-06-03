@@ -3,6 +3,7 @@ import SideBar from "../components/SideBar";
 import PortalPopup from "../components/PortalPopup";
 import { useState, useCallback } from "react";
 import styles from "./HomePage.module.css";
+import Header from "../components/Header";
 const HomePage = () => {
   const navigate = useNavigate();
   const [isSideBarOpen, setSideBarOpen] = useState(false);
@@ -44,52 +45,7 @@ const HomePage = () => {
   return (
     <>
     <div className={styles.homepage}>
-      <div className={styles.header}>
-        <div className={styles.logo}>
-          <div className={styles.bwk}>BWK</div>
-          <div className={styles.betWiseKenya}>Bet Wise Kenya</div>
-        </div>
-        
-        <div className={styles.navbar}>
-          <div className={styles.home}>Home</div>
-          <div
-            className={styles.subscriptions}
-            onClick={onSubscriptionsClick}
-          >
-            Subscriptions
-          </div>
-          <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
-            SMS Betting
-          </div>
-          <div className={styles.smsBetting} onClick={onWebBettingTextClick}>
-            Web Betting
-          </div>
-          <div className={styles.smsBetting} onClick={onLiveScoreTextClick}>
-            Live Score
-          </div>
-          <div className={styles.smsBetting} onClick={onContactUsTextClick}>
-            Contact Us
-          </div>
-
-        </div>
-        <div className={styles.loginsignup}>
-          <div className={styles.signup} onClick={onSignupContainerClick}>
-            
-            <b className={styles.signUp}>Sign Up</b>
-          </div>
-          <div className={styles.login} onClick={onLOginContainerClick}>
-            
-            <b className={styles.login1}>Login</b>
-          </div>
-        </div>
-        <div className="styles.sideNav"><img
-              className={styles.sideNavIcon}
-              alt=""
-              src="/sidenav1.svg"
-              onClick={openSideBar}
-            /></div>
-        
-      </div>
+      <Header />
       <div className={styles.homeTop}>
         <img className={styles.image1Icon} alt="" src="/image-1@2x.png" />
         <b className={styles.welcomeToBetContainer}>

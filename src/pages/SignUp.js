@@ -4,6 +4,7 @@ import PortalPopup from "../components/PortalPopup";
 import TearmsAndConditions from "../components/TearmsAndConditions";
 import { useNavigate } from "react-router-dom";
 import styles from "./SignUp.module.css";
+import Header from "../components/Header";
 const SignUp = () => {
   const [isCheckOpen, setCheckOpen] = useState(false);
   const [isTearmsAndConditionsOpen, setTearmsAndConditionsOpen] =
@@ -26,30 +27,6 @@ const SignUp = () => {
     setTearmsAndConditionsOpen(false);
   }, []);
 
-  const onHomeTextClick = useCallback(() => {
-    navigate("/homepage");
-  }, [navigate]);
-
-  const onSubscriptionsTextClick = useCallback(() => {
-    navigate("/subscriptions");
-  }, [navigate]);
-
-  const onSMSBettingTextClick = useCallback(() => {
-    navigate("/sms-betting");
-  }, [navigate]);
-
-  const onWebBettingTextClick = useCallback(() => {
-    navigate("/web-betting");
-  }, [navigate]);
-
-  const onLiveScoreTextClick = useCallback(() => {
-    navigate("/live-score");
-  }, [navigate]);
-
-  const onContactUsTextClick = useCallback(() => {
-    navigate("/contact-us");
-  }, [navigate]);
-
   const onSIgnUpContainerClick = useCallback(() => {
     navigate("/succesfully-registered");
   }, [navigate]);
@@ -62,35 +39,7 @@ const SignUp = () => {
     <>
       <div className={styles.signUp}>
         <img className={styles.image3Icon} alt="" src="/image-31@2x.png" />
-        <div className={styles.header}>
-          <div className={styles.logo}>
-            <div className={styles.bwk}>BWK</div>
-            <div className={styles.betWiseKenya}>Bet Wise Kenya</div>
-          </div>
-          <div className={styles.navbar}>
-            <div className={styles.home} onClick={onHomeTextClick}>
-              Home
-            </div>
-            <div
-              className={styles.subscriptions}
-              onClick={onSubscriptionsTextClick}
-            >
-              Subscriptions
-            </div>
-            <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
-              SMS Betting
-            </div>
-            <div className={styles.webBetting} onClick={onWebBettingTextClick}>
-              Web Betting
-            </div>
-            <div className={styles.liveScore} onClick={onLiveScoreTextClick}>
-              Live Score
-            </div>
-            <div className={styles.contactUs} onClick={onContactUsTextClick}>
-              Contact Us
-            </div>
-          </div>
-        </div>
+        <Header />
         <div className={styles.signupForm}>
           <div className={styles.signupFormChild} />
           <div className={styles.eg0712345678}>{`e.g 0712345678 `}</div>

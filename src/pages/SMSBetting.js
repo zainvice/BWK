@@ -1,41 +1,10 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./SMSBetting.module.css";
+import Header from "../components/Header";
 const SMSBetting = () => {
   const navigate = useNavigate();
-
-  const onSignupContainerClick = useCallback(() => {
-    navigate("/signup");
-  }, [navigate]);
-
-  const onLOginContainerClick = useCallback(() => {
-    navigate("/login");
-  }, [navigate]);
-
-  const onHomeTextClick = useCallback(() => {
-    navigate("/homepage");
-  }, [navigate]);
-
-  const onSubscriptionsTextClick = useCallback(() => {
-    navigate("/subscriptions");
-  }, [navigate]);
-
-  const onSMSBettingTextClick = useCallback(() => {
-    navigate("/sms-betting");
-  }, [navigate]);
-
-  const onWebBettingTextClick = useCallback(() => {
-    navigate("/web-betting");
-  }, [navigate]);
-
-  const onLiveScoreTextClick = useCallback(() => {
-    navigate("/live-score");
-  }, [navigate]);
-
-  const onContactUsTextClick = useCallback(() => {
-    navigate("/contact-us");
-  }, [navigate]);
-
+  
   const onSMSBettingText1Click = useCallback(() => {
     navigate("/sms-betting");
   }, [navigate]);
@@ -46,6 +15,7 @@ const SMSBetting = () => {
 
   return (
     <div className={styles.smsBetting}>
+      <Header />
       <div className={styles.betOnTheContainer}>
         <p className={styles.betOnThe}>
           Bet on the go with our convenient SMS betting service. We understand
@@ -79,45 +49,6 @@ const SMSBetting = () => {
           <p className={styles.betOnThe}>OV2.5/UN2.5</p>
           <p className={styles.betOnThe}>HT/FT</p>
           <p className={styles.betOnThe}>BTTS</p>
-        </div>
-      </div>
-      <div className={styles.header}>
-        <div className={styles.logo}>
-          <div className={styles.bwk}>BWK</div>
-          <div className={styles.betWiseKenya}>Bet Wise Kenya</div>
-        </div>
-        <div className={styles.loginsignup}>
-          <div className={styles.signup} onClick={onSignupContainerClick}>
-            
-            <b className={styles.signUp}>Sign Up</b>
-          </div>
-          <div className={styles.login} onClick={onLOginContainerClick}>
-           
-            <b className={styles.login1}>Login</b>
-          </div>
-        </div>
-        <div className={styles.navbar}>
-          <div className={styles.home} onClick={onHomeTextClick}>
-            Home
-          </div>
-          <div
-            className={styles.subscriptions}
-            onClick={onSubscriptionsTextClick}
-          >
-            Subscriptions
-          </div>
-          <div className={styles.smsBetting1} onClick={onSMSBettingTextClick}>
-            SMS Betting
-          </div>
-          <div className={styles.webBetting} onClick={onWebBettingTextClick}>
-            Web Betting
-          </div>
-          <div className={styles.liveScore} onClick={onLiveScoreTextClick}>
-            Live Score
-          </div>
-          <div className={styles.contactUs} onClick={onContactUsTextClick}>
-            Contact Us
-          </div>
         </div>
       </div>
       <b className={styles.smsBetting2} onClick={onSMSBettingText1Click}>

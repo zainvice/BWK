@@ -209,7 +209,6 @@
 
 .image2Icon {
   position: absolute;
-  
   top: 0;
   left: 868px;
   width: 276px;
@@ -262,10 +261,16 @@
   width: 70%;
 }
 
+.homDescription{
 
+  position: relative;
+  top: 100px;
+  left: 0px;
+  height: 500px;
+}
 .homeDesp {
   position: relative;
-  top: 0px;
+  top: 30px;
   left: 50px;
   width: 80%;
   height: 500px;
@@ -286,7 +291,7 @@
 .sideNavIcon {
   display: none;
 }
-@media (min-width: 200px) and (max-width: 1192px) {
+@media (min-width: 200px) and (max-width: 792px) {
   .navbar{
     display: none;
   }
@@ -312,9 +317,9 @@
     height: 13px;
   }
   .betWiseKenya {
-    top: 0px;
+    top: -30px;
     left: 2px;
-    
+    font-weight: 400;
     font-size: var(--font-size-sm);
     color: var(--color-black);
     width: 181.99px;
@@ -343,10 +348,9 @@
   }
   .header {
     position: relative;
-    top: -20px;
-    left: 20px;
+    top: 0px;
+    left: 15px;
     height: 55px;
-    border: 1px solid rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -359,9 +363,10 @@
     justify-content: center;
     text-align: center;
     width: 95%;
-    margin-left: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
     border: 1px solid black;
-    height: 40%;
+    height: 40vh;
   }
   .image1Icon {
     position: relative;
@@ -374,8 +379,8 @@
  
   .welcomeToBetContainer {
     position: relative;
-    top: -250px;
-    left: 10px;
+    top: -200px;
+    left: 0px;
     font-size: var(--font-size-12xl);
     font-family: var(--font-magra);
     text-align: center;
@@ -383,7 +388,7 @@
     height: 30px;
   }
   .becomeOneOf {
-    top: 350px;
+    top: 250px;
     left: 50px;
     font-size: var(--font-size-mid);
     text-align: center;
@@ -407,15 +412,16 @@
   }
   .vectorParent {
 
-    top: 420px;
-    left: 220px;
+    top: 300px;
+    left: 160px;
     width: 12%;
-    height: 23px;
+    height: 16px;
     font-size: var(--font-size-5xs);
   }
   .forYou {
     color: var(--color-gold);
   }
+  
   .homeDesp{
     position: relative;
     display: flex;
@@ -425,50 +431,53 @@
     text-align: center;
     width: 95%;
     top: 20px;
-    left: 15px;
-    border: 1px solid black;
-    height: 80%;
+    left: 10px;
+    height: 620px;
   }
+  .homDescription{
+  
+    position: relative;
+    top: -320px;
+    height: 620px;
+}
   .image2Icon {
       position: relative;
       justify-content: center;
-      top: 150px;
+      top: 230px;
       left: 0px;
       object-fit: cover;
   }
   .whatWeDoContainer {
     position: relative;
-    top: -480px;
     text-align: center;
     font-size: var(--font-size-14xl);
     font-family: var(--font-magra);
     color: var(--color-black);
   }
   .joinNow {
-    position: relative;
     border-radius: var(--br-xl);
     font-size: var(--font-size-sm);
     width: 100%;
     /*background-color: #FF9900;*/
-
+    position: relative;
+    top: 5px;
+    left: 35px;
     text-align: center;
-    left: 0;
-    height: 35px;
+
     cursor: pointer;
   }
   .vectorGroup{
     position: relative;
     width: 20%;
-
-    left: 150px;
-    top: 0px;
+    left: 105px;
+    top: 500px;
   }
 
 
   .welcomeToOurContainer {
     position: relative;
-    top: -490px;
     left: 0px;
+    top: -10px;
     font-size: var(--font-size-mini);
     color: var(--color-black);
     width: 95%;
@@ -478,9 +487,8 @@
     position: relative;
     background-color: var(--color-white);
     width: 100%;
-    height: 948px;
+    height: 1448px;
     overflow: hidden;
-    text-align: left;
     font-size: var(--font-size-12xl);
     color: var(--color-white);
     font-family: var(--font-poppins);

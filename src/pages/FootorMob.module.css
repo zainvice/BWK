@@ -1,0 +1,89 @@
+.bwk {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 92px;
+  height: 53px;
+}
+.betWiseKenya,
+.logo {
+  position: absolute;
+  width: 143.48px;
+}
+.betWiseKenya {
+  top: 41px;
+  left: 0;
+  font-size: var(--font-size-smi);
+  color: var(--color-black);
+  display: inline-block;
+}
+.logo {
+  top: 11px;
+  left: 14px;
+  height: 61px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-orange);
+}
+.bwkCopyright {
+  position: absolute;
+  top: 203px;
+  left: 141px;
+  color: #5e5e5e;
+}
+.facebook,
+.linksIcon {
+  position: absolute;
+  overflow: hidden;
+}
+.facebook {
+  top: 92.24px;
+  left: 716.01px;
+  background-color: var(--color-gray-400);
+  width: 25px;
+  height: 25px;
+}
+.linksIcon {
+  height: 15.32%;
+  width: 51.37%;
+  top: 60.43%;
+  right: 24.46%;
+  bottom: 24.26%;
+  left: 24.17%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.footorMobChild {
+  position: absolute;
+  top: 125.5px;
+  left: 54.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 283px;
+  height: 1px;
+}
+.contactUs {
+  margin: 0;
+}
+.contactUsEmailContainer {
+  position: absolute;
+  top: 18px;
+  left: 254px;
+}
+.browseSiteHomeContainer {
+  position: absolute;
+  top: 96px;
+  left: 21px;
+  font-size: var(--font-size-4xs);
+}
+.footorMob {
+  position: relative;
+  background-color: var(--color-gainsboro-400);
+  width: 100%;
+  height: 235px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

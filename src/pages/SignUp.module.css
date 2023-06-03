@@ -1,0 +1,319 @@
+.image3Icon {
+  position: absolute;
+  top: 168px;
+  left: 116px;
+  border-radius: var(--br-21xl);
+  width: 1259px;
+  height: 748px;
+  object-fit: cover;
+}
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  left: 0;
+}
+.bwk {
+  top: 0;
+  display: inline-block;
+  width: 275px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 41px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.home,
+.logo,
+.subscriptions {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.logo {
+  width: 275px;
+  height: 68px;
+}
+.home,
+.subscriptions {
+  cursor: pointer;
+}
+.subscriptions {
+  left: 93px;
+}
+.contactUs,
+.liveScore,
+.smsBetting,
+.webBetting {
+  position: absolute;
+  top: 0;
+  left: 254px;
+  cursor: pointer;
+}
+.contactUs,
+.liveScore,
+.webBetting {
+  left: 398px;
+}
+.contactUs,
+.liveScore {
+  left: 547px;
+}
+.contactUs {
+  left: 676px;
+}
+.navbar {
+  position: absolute;
+  top: 27px;
+  left: 233px;
+  width: 776px;
+  height: 27px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.header,
+.signupFormChild {
+  position: absolute;
+  top: 28px;
+  left: 85px;
+  width: 1009px;
+  height: 68px;
+}
+.signupFormChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gray-300);
+  width: 590px;
+  height: 582px;
+}
+.eg0712345678,
+.egYourmailmailcom,
+.maximumAmountTo,
+.signUp1 {
+  position: absolute;
+  top: 227px;
+  left: 76px;
+  font-size: var(--font-size-smi);
+  color: var(--color-dimgray-200);
+}
+.egYourmailmailcom,
+.maximumAmountTo,
+.signUp1 {
+  top: 412px;
+  left: 72px;
+}
+.egYourmailmailcom,
+.signUp1 {
+  top: 232px;
+  left: 322px;
+}
+.signUp1 {
+  top: 21px;
+  left: 226px;
+  font-size: var(--font-size-13xl);
+  color: var(--color-orange);
+}
+.rectangleDiv,
+.signupFormChild1,
+.signupFormChild2,
+.signupFormChild3,
+.signupFormInner,
+.signupFormItem {
+  position: absolute;
+  top: 91px;
+  left: 52px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-dimgray-100);
+  box-sizing: border-box;
+  width: 485px;
+  height: 54px;
+}
+.rectangleDiv,
+.signupFormChild1,
+.signupFormChild2,
+.signupFormChild3,
+.signupFormInner {
+  top: 354px;
+}
+.rectangleDiv,
+.signupFormChild1,
+.signupFormChild2,
+.signupFormChild3 {
+  top: 173px;
+  width: 227px;
+}
+.signupFormChild1,
+.signupFormChild2,
+.signupFormChild3 {
+  left: 310px;
+}
+.signupFormChild2,
+.signupFormChild3 {
+  top: 280px;
+  left: 52px;
+}
+.signupFormChild3 {
+  left: 310px;
+}
+.signUpChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 193px;
+  height: 57px;
+}
+.signUp2,
+.signup {
+  position: absolute;
+  top: 14px;
+  left: 59px;
+}
+.signUp2 {
+  top: 508px;
+  left: 198px;
+  width: 193px;
+  height: 57px;
+  cursor: pointer;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.signUpItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-orange);
+  width: 135px;
+  height: 44px;
+}
+.logIn {
+  position: absolute;
+  top: 8px;
+  left: 34px;
+  display: inline-block;
+  width: 68.73px;
+  height: 20px;
+}
+.signUp3,
+.signupFormChild4 {
+  position: absolute;
+  cursor: pointer;
+}
+.signUp3 {
+  top: 515px;
+  left: 957px;
+  width: 135px;
+  height: 44px;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.signupFormChild4 {
+  top: 451px;
+  left: 52px;
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 20px;
+  height: 20px;
+}
+.termsOfService {
+  color: var(--color-orange);
+}
+.iHaveReadContainer {
+  position: absolute;
+  top: 449px;
+  left: 85px;
+  font-size: var(--font-size-base);
+  cursor: pointer;
+  color: var(--color-black);
+}
+.alreadyHaveAnContainer {
+  position: absolute;
+  top: 522px;
+  left: 665px;
+  color: var(--color-white);
+}
+.yourName,
+.yourPhoneNo {
+  position: absolute;
+  top: 103px;
+  left: 72px;
+}
+.yourPhoneNo {
+  top: 185px;
+}
+.yourBettingPlatform {
+  position: absolute;
+  top: 294px;
+  left: 62px;
+  font-size: var(--font-size-mid);
+  color: var(--color-darkslategray-100);
+}
+.vectorIcon {
+  position: absolute;
+  top: 302.67px;
+  left: 252.62px;
+  width: 15.75px;
+  height: 9.65px;
+}
+.yourBetPassword,
+.yourEmail {
+  position: absolute;
+  top: 185px;
+  left: 322px;
+}
+.yourBetPassword {
+  top: 291px;
+}
+.maximumStake,
+.signupForm {
+  position: absolute;
+  top: 366px;
+  left: 72px;
+}
+.signupForm {
+  top: 264px;
+  left: 164px;
+  width: 1092px;
+  height: 582px;
+  font-size: var(--font-size-lgi);
+  color: var(--color-darkgray);
+}
+.weAssistYou {
+  margin: 0;
+}
+.weAssistYouContainer {
+  position: absolute;
+  top: 435px;
+  left: 829px;
+  font-size: var(--font-size-6xl);
+  color: var(--color-whitesmoke-100);
+  display: inline-block;
+  width: 504px;
+}
+.chooseUs {
+  color: var(--color-gold);
+}
+.whyChooseUsContainer {
+  position: absolute;
+  top: 360px;
+  left: 831px;
+  font-size: var(--font-size-23xl);
+  -webkit-text-stroke: 0.2px #000;
+  color: var(--color-white);
+}
+.signUp {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1415px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-18xl);
+  color: var(--color-orange);
+  font-family: var(--font-poppins);
+}

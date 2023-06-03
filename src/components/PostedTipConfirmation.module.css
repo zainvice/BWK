@@ -1,0 +1,70 @@
+.postedTipConfirmationChild {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  border-radius: var(--br-112xl);
+  background-color: var(--color-whitesmoke-200);
+  width: 1256px;
+  height: 678px;
+}
+.live,
+.yourTip {
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+}
+.live {
+  color: var(--color-orange);
+}
+.yourTipLiveOnTheSiteNow {
+  margin: 0;
+}
+.yourTipLiveContainer {
+  position: absolute;
+  top: 313px;
+  left: 389px;
+}
+.addNewButChild,
+.x {
+  position: absolute;
+  top: 89px;
+  left: 1163px;
+}
+.addNewButChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+}
+.close {
+  position: absolute;
+  top: 9px;
+  left: 48px;
+  display: inline-block;
+  width: 44px;
+}
+.addNewBut {
+  position: absolute;
+  top: 458px;
+  left: 559px;
+  width: 140px;
+  height: 40px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.postedTipConfirmation {
+  position: relative;
+  background-color: var(--color-gray-500);
+  width: 1309px;
+  height: 740px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: center;
+  font-size: var(--font-size-15xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

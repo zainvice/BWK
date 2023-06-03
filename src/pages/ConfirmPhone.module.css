@@ -1,0 +1,104 @@
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  display: inline-block;
+}
+.bwk {
+  top: 0;
+  left: 0;
+  width: 92.7px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 34px;
+  left: 2.04px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  width: 181.99px;
+}
+.sideNavIcon {
+  position: absolute;
+  top: 24.5px;
+  left: 320.5px;
+  width: 25.92px;
+  height: 19px;
+  cursor: pointer;
+}
+.header,
+.image3Icon,
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 344.92px;
+  height: 55px;
+}
+.header,
+.image3Icon {
+  top: 21px;
+  left: 15px;
+}
+.image3Icon {
+  top: 107px;
+  left: 13px;
+  border-radius: var(--br-21xl);
+  width: 366px;
+  height: 647px;
+  object-fit: cover;
+}
+.loginFormChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  width: 346px;
+  height: 342px;
+}
+.support {
+  position: absolute;
+  top: 41px;
+  left: 114px;
+  display: inline-block;
+  width: 136px;
+  height: 49px;
+}
+.weHave {
+  color: var(--color-gray-200);
+}
+.received {
+  color: var(--color-orange);
+}
+.weHaveReceivedYouRequest {
+  margin: 0;
+}
+.weHaveReceivedContainer {
+  position: absolute;
+  top: 128px;
+  left: 54px;
+  font-size: var(--font-size-2xl);
+  text-align: center;
+  display: inline-block;
+  width: 234px;
+  height: 214px;
+  color: var(--color-gray-200);
+}
+.loginForm {
+  position: absolute;
+  top: 260px;
+  left: 23px;
+  width: 346px;
+  height: 342px;
+  font-size: var(--font-size-11xl);
+}
+.confirmphone {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 788px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-12xl);
+  color: var(--color-orange);
+  font-family: var(--font-poppins);
+}

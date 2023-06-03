@@ -1,0 +1,216 @@
+.betOnThe {
+  margin: 0;
+}
+.betOnTheContainer {
+  position: absolute;
+  top: 234px;
+  left: 183px;
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 1073px;
+}
+.smsofferChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  width: 1058px;
+  height: 427px;
+  object-fit: cover;
+}
+.smsTipsDetails {
+  margin: 0;
+  font-size: 52px;
+  color: var(--color-orange);
+}
+.smsTipsDetailsContainer,
+.smsoffer {
+  position: absolute;
+  top: 39px;
+  left: 284px;
+}
+.smsoffer {
+  top: 547px;
+  left: 209px;
+  width: 1058px;
+  height: 427px;
+  text-align: center;
+  font-size: var(--font-size-19xl);
+}
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  left: 0;
+}
+.bwk {
+  top: 0;
+  display: inline-block;
+  width: 275px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 41px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.logo,
+.signupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 275px;
+  height: 68px;
+}
+.signupChild {
+  border-radius: var(--br-xl);
+  width: 118.57px;
+  height: 38px;
+}
+.signUp {
+  position: absolute;
+  top: 4.6px;
+  left: 42.87px;
+  display: inline-block;
+  width: 75.69px;
+  height: 16.04px;
+}
+.loginChild,
+.signup {
+  position: absolute;
+  top: 0px;
+  border: 2px solid #FF9900;
+  border-radius: 40px;
+  left: 55px;
+  width: 118.57px;
+  height: 38px;
+}
+.loginChild {
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 95.08px;
+}
+.login1 {
+  position: absolute;
+  top: 5.91px;
+  left: 19.38px;
+  display: inline-block;
+  width: 56.31px;
+  height: 22.8px;
+}
+.login,
+.loginsignup {
+  position: absolute;
+  height: 38px;
+  
+}
+.login {
+  top: 0;
+  left: 0;
+  width: 95.08px;
+  background-color: #FF9900;
+  border-radius: 40px;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.loginsignup {
+  top: 22px;
+  left: 1040px;
+  width: 180px;
+  font-size: var(--font-size-base);
+  cursor: pointer;
+}
+.home,
+.smsBetting1,
+.subscriptions {
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+.smsBetting1,
+.subscriptions {
+  left: 93px;
+}
+.smsBetting1 {
+  left: 254px;
+  color: var(--color-orange);
+}
+.contactUs,
+.liveScore,
+.webBetting {
+  position: absolute;
+  top: 0;
+  left: 398px;
+  cursor: pointer;
+}
+.contactUs,
+.liveScore {
+  left: 547px;
+}
+.contactUs {
+  left: 676px;
+}
+.navbar {
+  position: absolute;
+  top: 27px;
+  left: 233px;
+  width: 776px;
+  height: 27px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.header,
+.smsBetting2 {
+  position: absolute;
+  color: var(--color-orange);
+}
+.header {
+  top: 28px;
+  left: 85px;
+  width: 1271px;
+  height: 68px;
+  font-size: var(--font-size-18xl);
+}
+.smsBetting2 {
+  top: 145px;
+  left: 569px;
+  font-size: var(--font-size-29xl);
+  cursor: pointer;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  width: 191px;
+  height: 55px;
+}
+.joinNow {
+  position: absolute;
+  top: 8.68px;
+  left: 38.17px;
+  display: inline-block;
+  width: 152.68px;
+  height: 33.29px;
+}
+.vectorParent {
+  position: absolute;
+  top: 1027px;
+  left: 642px;
+  width: 191px;
+  height: 55px;
+  cursor: pointer;
+  font-size: var(--font-size-6xl);
+}
+.smsBetting {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1155px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

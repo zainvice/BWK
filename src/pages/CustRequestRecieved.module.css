@@ -1,0 +1,158 @@
+.image3Icon {
+  position: absolute;
+  top: 217px;
+  left: 97px;
+  border-radius: var(--br-21xl);
+  width: 1259px;
+  height: 748px;
+  object-fit: cover;
+}
+.loginFormChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-54xl);
+  background-color: var(--color-gray-300);
+  width: 590px;
+  height: 384px;
+}
+.support {
+  position: absolute;
+  top: 32px;
+  left: 200px;
+  cursor: pointer;
+}
+.loginForm {
+  position: absolute;
+  top: 359px;
+  left: 421px;
+  width: 590px;
+  height: 384px;
+}
+.weHave {
+  color: var(--color-gray-200);
+}
+.received {
+  color: var(--color-orange);
+}
+.weHaveReceivedYouRequest {
+  margin: 0;
+}
+.weHaveReceivedContainer {
+  position: absolute;
+  top: 525px;
+  left: 494px;
+  font-size: var(--font-size-6xl);
+  text-align: center;
+  display: inline-block;
+  width: 466px;
+  height: 125px;
+  color: var(--color-gray-200);
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 100px;
+  height: 35px;
+}
+.logout {
+  position: absolute;
+  top: 2.13px;
+  left: 20px;
+  display: inline-block;
+  width: 75px;
+  height: 21.88px;
+}
+.vectorParent {
+  position: absolute;
+  top: 51px;
+  left: 1023px;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  left: 0;
+}
+.bwk {
+  top: 0;
+  display: inline-block;
+  width: 275px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 41px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.home,
+.logo,
+.subscriptions {
+  position: absolute;
+  left: 0;
+  cursor: pointer;
+}
+.logo {
+  top: 0;
+  width: 275px;
+  height: 68px;
+}
+.home,
+.subscriptions {
+  top: 1px;
+}
+.subscriptions {
+  left: 93px;
+}
+.liveScore {
+  top: 0;
+  left: 254px;
+  cursor: pointer;
+}
+.header,
+.liveScore,
+.navbar {
+  position: absolute;
+}
+.navbar {
+  top: 27px;
+  left: 463px;
+  width: 344px;
+  height: 28px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.header {
+  top: 28px;
+  left: 85px;
+  width: 807px;
+  height: 68px;
+  font-size: var(--font-size-18xl);
+}
+.image4Icon {
+  position: absolute;
+  top: 36px;
+  left: 1237px;
+  border-radius: var(--br-7xl);
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.custRequestRecieved {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  color: var(--color-orange);
+  font-family: var(--font-poppins);
+}

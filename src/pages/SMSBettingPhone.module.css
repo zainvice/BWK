@@ -1,0 +1,130 @@
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  display: inline-block;
+}
+.bwk {
+  top: 0;
+  left: 0;
+  width: 92.7px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 34px;
+  left: 2.04px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  width: 181.99px;
+}
+.sideNavIcon {
+  position: absolute;
+  top: 24.5px;
+  left: 320.5px;
+  width: 25.92px;
+  height: 19px;
+  cursor: pointer;
+}
+.header,
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 344.92px;
+  height: 55px;
+}
+.header {
+  top: 21px;
+  left: 15px;
+}
+.betOnThe {
+  margin: 0;
+}
+.betOnTheContainer,
+.smsBetting {
+  position: absolute;
+  display: inline-block;
+}
+.betOnTheContainer {
+  top: 171px;
+  left: 43px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+  text-align: center;
+  width: 311px;
+}
+.smsBetting {
+  top: 117px;
+  left: 126px;
+  font-size: var(--font-size-6xl);
+  width: 160px;
+  cursor: pointer;
+}
+.smsofferChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  width: 327px;
+  height: 214px;
+  object-fit: cover;
+}
+.smsTipsDetails {
+  margin: 0;
+  font-size: var(--font-size-6xl);
+  color: var(--color-orange);
+}
+.smsTipsDetailsContainer {
+  position: absolute;
+  top: 30px;
+  left: 24px;
+  display: inline-block;
+  width: 279px;
+  height: 139px;
+}
+.smsoffer {
+  position: absolute;
+  top: 409px;
+  left: 41px;
+  width: 327px;
+  height: 214px;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+}
+.joinNowChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 140px;
+  height: 35px;
+}
+.joinNow1 {
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  display: inline-block;
+  width: 81px;
+  height: 25px;
+}
+.joinNow {
+  position: absolute;
+  top: 653px;
+  left: 126px;
+  width: 140px;
+  height: 35px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.smsBettingPhone {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 728px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-12xl);
+  color: var(--color-orange);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,161 @@
+.image2Icon {
+  position: absolute;
+  top: 369px;
+  left: 36px;
+  width: 276px;
+  height: 500px;
+  object-fit: cover;
+}
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  display: inline-block;
+}
+.bwk {
+  top: 0;
+  left: 0;
+  width: 92.7px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 34px;
+  left: 2.04px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  width: 181.99px;
+}
+.sideNavIcon {
+  position: absolute;
+  top: 24.5px;
+  left: 320.5px;
+  width: 25.92px;
+  height: 19px;
+  cursor: pointer;
+}
+.header,
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 344.92px;
+  height: 55px;
+}
+.header {
+  top: 21px;
+  left: 15px;
+  color: var(--color-orange);
+}
+.image1Icon {
+  position: absolute;
+  top: 127px;
+  left: 9px;
+  border-radius: var(--br-xl);
+  width: 375px;
+  height: 185px;
+  object-fit: cover;
+}
+.becomeOneOf,
+.welcomeToBetContainer {
+  position: absolute;
+  display: inline-block;
+}
+.welcomeToBetContainer {
+  top: 168px;
+  left: 62px;
+  font-size: var(--font-size-8xl);
+  font-family: var(--font-magra);
+  text-align: center;
+  width: 256px;
+  height: 30px;
+}
+.becomeOneOf {
+  top: 239px;
+  left: 113px;
+  font-size: var(--font-size-xs);
+  width: 187px;
+  height: 11px;
+}
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 53.62px;
+  height: 19.08px;
+}
+.signUp {
+  position: absolute;
+  top: 3.01px;
+  left: 10.72px;
+  display: inline-block;
+  width: 42.86px;
+  height: 11.55px;
+}
+.vectorParent {
+  position: absolute;
+  top: 272px;
+  left: 163px;
+  width: 53.62px;
+  height: 19.08px;
+  font-size: var(--font-size-5xs);
+}
+.forYou {
+  color: var(--color-gold);
+}
+.whatWeDoContainer {
+  position: absolute;
+  top: 349px;
+  left: 60px;
+  font-size: var(--font-size-14xl);
+  font-family: var(--font-magra);
+  color: var(--color-black);
+}
+.joinNowChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 140px;
+  height: 35px;
+}
+.joinNow1 {
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  display: inline-block;
+  width: 81px;
+  height: 25px;
+}
+.joinNow {
+  position: absolute;
+  top: 851px;
+  left: 126px;
+  width: 140px;
+  height: 35px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+}
+.welcomeToOur {
+  margin: 0;
+}
+.welcomeToOurContainer {
+  position: absolute;
+  top: 400px;
+  left: 24px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  text-align: center;
+  display: inline-block;
+  width: 345px;
+}
+.homePhone {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 948px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-12xl);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

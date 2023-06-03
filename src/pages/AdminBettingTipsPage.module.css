@@ -1,0 +1,378 @@
+.image4Icon {
+  position: absolute;
+  top: 35px;
+  left: 1337px;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+  cursor: pointer;
+}
+.headerChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-dimgray-300);
+  width: 332px;
+  height: 1024px;
+}
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 279px;
+  height: 61.41px;
+}
+.betWiseKenya {
+  top: 47.5px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  width: 138.99px;
+  height: 31.28px;
+}
+.dashboard,
+.logo,
+.userManagement {
+  position: absolute;
+  top: 23px;
+  left: 34px;
+  width: 279px;
+  height: 78.79px;
+  cursor: pointer;
+}
+.dashboard,
+.userManagement {
+  top: 0;
+  left: 50px;
+  display: inline-block;
+  width: 102.47px;
+  height: 41.25px;
+}
+.userManagement {
+  top: 70px;
+  width: 169.43px;
+}
+.subscriptionManagement {
+  top: 137px;
+  left: 50px;
+  width: 243.49px;
+}
+.bettingTipsManagement,
+.contentManagement,
+.reportsAndAnalytics,
+.subscriptionManagement {
+  position: absolute;
+  display: inline-block;
+  height: 41.25px;
+  cursor: pointer;
+}
+.contentManagement {
+  top: 208px;
+  left: 47px;
+  width: 202.91px;
+}
+.bettingTipsManagement,
+.reportsAndAnalytics {
+  left: 50px;
+}
+.bettingTipsManagement {
+  top: 274px;
+  color: var(--color-orange);
+  width: 235.37px;
+}
+.reportsAndAnalytics {
+  top: 340px;
+  width: 198.85px;
+}
+.vectorIcon,
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  position: absolute;
+  height: 5.1%;
+  width: 8.52%;
+  top: 0.52%;
+  right: 90.46%;
+  bottom: 94.38%;
+  left: 1.02%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vectorIcon1,
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  height: 5.25%;
+  top: 18.36%;
+  bottom: 76.39%;
+}
+.vectorIcon2,
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  height: 4.59%;
+  top: 72.92%;
+  right: 91.14%;
+  bottom: 22.49%;
+  left: 0.34%;
+}
+.vectorIcon3,
+.vectorIcon4,
+.vectorIcon5 {
+  height: 6.56%;
+  width: 7.45%;
+  top: 53.25%;
+  right: 91.52%;
+  bottom: 40.2%;
+  left: 1.02%;
+}
+.vectorIcon4,
+.vectorIcon5 {
+  height: 4.92%;
+  width: 8.52%;
+  top: 89.7%;
+  right: 91.48%;
+  bottom: 5.38%;
+  left: 0;
+}
+.vectorIcon5 {
+  height: 5.1%;
+  top: 36.46%;
+  right: 90.46%;
+  bottom: 58.44%;
+  left: 1.02%;
+}
+.navbar {
+  position: absolute;
+  top: 189px;
+  left: 32px;
+  width: 293.49px;
+  height: 381.25px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.bettingTipsManagement1,
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 332px;
+  height: 1024px;
+  font-size: var(--font-size-18xl);
+  color: var(--color-orange);
+}
+.bettingTipsManagement1 {
+  top: 42px;
+  left: 567px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  width: 446px;
+  height: 41px;
+  cursor: pointer;
+}
+.bwkCopyright {
+  position: absolute;
+  top: 961px;
+  left: 94px;
+  font-size: var(--font-size-smi);
+  color: var(--color-gainsboro-100);
+}
+.adminBettingtipsPageChild {
+  position: absolute;
+  top: 132px;
+  left: 349px;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-whitesmoke-400);
+  width: 1055px;
+  height: 876px;
+}
+.bettingTips {
+  position: absolute;
+  top: 170px;
+  left: 417px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  color: var(--color-orange);
+  width: 446px;
+  height: 41px;
+  cursor: pointer;
+}
+.vectorIcon6 {
+  position: absolute;
+  height: 80.65%;
+  width: 78.13%;
+  top: 19.35%;
+  right: 21.87%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.notNumChild {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  border-radius: 50%;
+  background-color: var(--color-red);
+  width: 16px;
+  height: 16px;
+}
+.b,
+.notNum,
+.notification {
+  position: absolute;
+  top: 0;
+  width: 17px;
+  height: 17px;
+}
+.b {
+  left: 0;
+  display: inline-block;
+}
+.notNum,
+.notification {
+  left: 11px;
+}
+.notification {
+  height: 3.03%;
+  width: 1.94%;
+  top: 4.69%;
+  right: 10.14%;
+  bottom: 92.29%;
+  left: 87.92%;
+  cursor: pointer;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+}
+.name,
+.posted {
+  position: absolute;
+  top: 289px;
+  left: 432px;
+}
+.posted {
+  left: 772px;
+}
+.newsubsChild,
+.status,
+.views {
+  position: absolute;
+  top: 289px;
+  left: 997px;
+}
+.newsubsChild,
+.status {
+  left: 1171px;
+}
+.newsubsChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  width: 989px;
+  height: 50px;
+}
+.justNow,
+.thisIsJust {
+  position: absolute;
+  top: 14px;
+}
+.thisIsJust {
+  left: 37px;
+  display: inline-block;
+  width: 175px;
+  height: 21px;
+}
+.justNow {
+  left: 370px;
+}
+.posted1 {
+  left: 776px;
+  color: var(--color-orange);
+}
+.div,
+.edit,
+.posted1 {
+  position: absolute;
+  top: 14px;
+}
+.edit {
+  left: 919px;
+  text-decoration: underline;
+  color: var(--color-darkorange);
+}
+.div {
+  left: 618px;
+}
+.addNewButChild,
+.newsubs {
+  position: absolute;
+  top: 335px;
+  left: 395px;
+  width: 989px;
+  height: 50px;
+}
+.addNewButChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-orange);
+  width: 140px;
+  height: 40px;
+}
+.vectorIcon7 {
+  position: absolute;
+  height: 37.5%;
+  width: 10.71%;
+  top: 30%;
+  right: 15.71%;
+  bottom: 32.5%;
+  left: 73.57%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.addNew,
+.addNewBut {
+  position: absolute;
+  top: 10px;
+  left: 24px;
+}
+.addNewBut {
+  top: 398px;
+  left: 1244px;
+  width: 140px;
+  height: 40px;
+  cursor: pointer;
+  color: var(--color-white);
+}
+.admin {
+  color: var(--color-orange);
+}
+.welcomeAdmin {
+  position: absolute;
+  top: 57px;
+  left: 1124px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  width: 120px;
+  height: 18px;
+}
+.adminBettingtipsPage {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

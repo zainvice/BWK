@@ -1,0 +1,360 @@
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 100px;
+  height: 35px;
+}
+.logout {
+  position: absolute;
+  top: 2.13px;
+  left: 20px;
+  display: inline-block;
+  width: 75px;
+  height: 21.88px;
+}
+.vectorParent {
+  position: absolute;
+  top: 51px;
+  left: 1023px;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  color: var(--color-white);
+}
+.bwk {
+  top: 0;
+  display: inline-block;
+  width: 275px;
+  height: 53px;
+}
+.betWiseKenya,
+.bwk,
+.logo {
+  position: absolute;
+  left: 0;
+}
+.betWiseKenya {
+  top: 41px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.logo {
+  top: 0;
+  width: 275px;
+  height: 68px;
+  cursor: pointer;
+}
+.home {
+  top: 1px;
+  left: 0;
+}
+.home,
+.liveScore,
+.subscriptions {
+  position: absolute;
+  cursor: pointer;
+}
+.subscriptions {
+  top: 1px;
+  left: 93px;
+  color: var(--color-orange);
+}
+.liveScore {
+  top: 0;
+  left: 254px;
+}
+.header,
+.navbar {
+  position: absolute;
+  top: 27px;
+  left: 463px;
+  width: 344px;
+  height: 28px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.header {
+  top: 28px;
+  left: 85px;
+  width: 807px;
+  height: 68px;
+  font-size: var(--font-size-18xl);
+  color: var(--color-orange);
+}
+.image4Icon,
+.subscriptions1 {
+  position: absolute;
+  cursor: pointer;
+}
+.image4Icon {
+  top: 36px;
+  left: 1237px;
+  width: 57px;
+  height: 57px;
+  object-fit: cover;
+}
+.subscriptions1 {
+  top: 153px;
+  left: 543px;
+  font-size: var(--font-size-29xl);
+}
+.subscription,
+.subscriptions1 {
+  color: var(--color-orange);
+}
+.upgradeYourSubscriptionContainer {
+  position: absolute;
+  top: 347px;
+  left: 419px;
+  font-size: 39px;
+  cursor: pointer;
+}
+.youreCurrentlySubscribedContainer {
+  position: absolute;
+  top: 262px;
+  left: 285px;
+  font-size: var(--font-size-13xl);
+  cursor: pointer;
+}
+.image5Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  width: 1058px;
+  height: 1195px;
+  object-fit: cover;
+}
+.smsTipsOnly {
+  position: absolute;
+  top: 151px;
+  left: 743px;
+}
+.smswebTips,
+.smswebTips1,
+.smswebTips2 {
+  position: absolute;
+  top: 394px;
+  left: 743px;
+}
+.smswebTips1,
+.smswebTips2 {
+  top: 736px;
+}
+.smswebTips2 {
+  top: 997px;
+}
+.bronzeOneDay {
+  margin: 0;
+}
+.btts {
+  margin-bottom: 0;
+}
+.bronzeOneDayContainer {
+  position: absolute;
+  top: 58px;
+  left: 34px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 288px;
+  height: 195px;
+}
+.offer,
+.price,
+.type {
+  position: absolute;
+  top: 0;
+  left: 106px;
+  display: inline-block;
+  width: 54px;
+  height: 33.13px;
+}
+.offer,
+.price {
+  left: 426px;
+  width: 64px;
+}
+.offer {
+  left: 714px;
+  width: 68px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 11.2%;
+  width: 3.2%;
+  top: 88.8%;
+  right: 96.8%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ksh100KshContainer {
+  position: absolute;
+  top: 91px;
+  left: 426px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  width: 83.33px;
+}
+.bronze,
+.silverSevenDaysContainer {
+  position: absolute;
+  font-size: var(--font-size-3xl);
+}
+.bronze {
+  top: 9px;
+  left: 61px;
+  width: 782px;
+  height: 325.67px;
+}
+.silverSevenDaysContainer {
+  top: 0;
+  left: 34px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 498px;
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 9.75%;
+  width: 3.03%;
+  top: 90.25%;
+  right: 96.97%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ksh600KshContainer,
+.onceAWeek,
+.onceAWeek1 {
+  position: absolute;
+  top: 31px;
+  left: 426px;
+  display: inline-block;
+  width: 83.33px;
+}
+.onceAWeek,
+.onceAWeek1 {
+  top: 193px;
+  left: 667px;
+  width: 157px;
+}
+.onceAWeek1 {
+  top: 220px;
+}
+.silver {
+  position: absolute;
+  top: 303px;
+  left: 61px;
+  width: 824px;
+  height: 372.58px;
+}
+.x2Ov15un15Ov25un25B {
+  margin: 0;
+  font-size: var(--font-size-lg);
+  padding-left: var(--padding-5xl);
+}
+.gold14DaysContainer {
+  position: absolute;
+  top: 0;
+  left: 37.04px;
+  display: inline-block;
+  width: 273.65px;
+  font-size: var(--font-size-3xl);
+}
+.onceAWeek2,
+.onceAWeek3 {
+  position: absolute;
+  top: 194px;
+  left: 686.18px;
+  display: inline-block;
+  width: 136.82px;
+}
+.onceAWeek3 {
+  top: 221px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 6.87%;
+  width: 3.13%;
+  top: 93.13%;
+  right: 96.87%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.gold1 {
+  position: absolute;
+  top: 645px;
+  left: 61px;
+  width: 823px;
+  height: 528.86px;
+}
+.ksh3000KshContainer {
+  position: absolute;
+  top: 31px;
+  left: 402px;
+  display: inline-block;
+  width: 83.33px;
+}
+.vip2 {
+  font-size: var(--font-size-3xl);
+  font-family: var(--font-poppins);
+}
+.weekly14Days30Days {
+  margin: 0;
+  padding-left: var(--padding-5xl);
+}
+.vipWeekly14Container {
+  position: absolute;
+  top: 0;
+  left: 34px;
+  display: inline-block;
+  width: 335px;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 4.42%;
+  width: 5.15%;
+  top: 304.77%;
+  right: 37.98%;
+  bottom: -209.19%;
+  left: 56.87%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vip {
+  position: absolute;
+  top: 933px;
+  left: 85px;
+  width: 485.33px;
+  height: 657.78px;
+}
+.subscriptionOptions {
+  position: absolute;
+  top: 443px;
+  left: 191px;
+  width: 1058px;
+  height: 1590.78px;
+  font-size: var(--font-size-lg);
+}
+.customerSubPage {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1720px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-mid);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

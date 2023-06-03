@@ -1,0 +1,378 @@
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  display: inline-block;
+}
+.bwk {
+  top: 0;
+  left: 0;
+  width: 92.7px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 34px;
+  left: 2.04px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  width: 181.99px;
+}
+.sideNavIcon {
+  position: absolute;
+  top: 24.5px;
+  left: 320.5px;
+  width: 25.92px;
+  height: 19px;
+  cursor: pointer;
+}
+.header,
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 344.92px;
+  height: 55px;
+}
+.header {
+  top: 21px;
+  left: 15px;
+  color: var(--color-orange);
+}
+.subscriptions {
+  position: absolute;
+  top: 113px;
+  left: 117px;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  width: 184px;
+  height: 34px;
+  cursor: pointer;
+}
+.offering,
+.subscriptions {
+  color: var(--color-orange);
+}
+.whatWeAreContainer {
+  position: absolute;
+  top: 398px;
+  left: 79px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 235px;
+  height: 33px;
+  cursor: pointer;
+}
+.readyToTake {
+  margin: 0;
+}
+.readyToTakeContainer {
+  position: absolute;
+  top: 168px;
+  left: 15px;
+  font-size: var(--font-size-2xs);
+  text-align: center;
+  display: inline-block;
+  width: 367px;
+  height: 80px;
+}
+.image5Icon {
+  position: absolute;
+  top: 27.97px;
+  left: 0;
+  border-radius: var(--br-21xl);
+  width: 343px;
+  height: 562px;
+  object-fit: cover;
+}
+.offer,
+.price,
+.type {
+  position: absolute;
+  top: 35.97px;
+  left: 50px;
+  font-size: var(--font-size-2xs);
+  display: inline-block;
+  width: 38px;
+  height: 13px;
+}
+.offer,
+.price {
+  left: 152px;
+  width: 41px;
+}
+.offer {
+  left: 243px;
+  width: 42px;
+}
+.btts {
+  margin-bottom: 0;
+}
+.span {
+  font-size: var(--font-size-8xs);
+}
+.bronzeOneDayContainer,
+.smsTipsOnly {
+  position: absolute;
+  display: inline-block;
+}
+.bronzeOneDayContainer {
+  top: 77.97px;
+  left: 12px;
+  white-space: pre-wrap;
+  width: 120px;
+  height: 68px;
+  font-size: var(--font-size-2xs);
+}
+.smsTipsOnly {
+  top: 119.97px;
+  left: 217px;
+  width: 61px;
+  height: 6px;
+}
+.vectorIcon {
+  position: absolute;
+  height: 4.6%;
+  width: 2.92%;
+  top: 0;
+  right: 97.08%;
+  bottom: 95.4%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ksh100KshContainer {
+  position: absolute;
+  top: 93.97px;
+  left: 132px;
+  display: inline-block;
+  width: 45px;
+  height: 48px;
+}
+.bronze {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  width: 278px;
+  height: 145.97px;
+}
+.silverSevenDaysContainer {
+  position: absolute;
+  top: 95.01px;
+  left: 12px;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 160.82px;
+  height: 101px;
+  font-size: var(--font-size-2xs);
+}
+.vectorIcon1 {
+  position: absolute;
+  height: 3.15%;
+  width: 2.84%;
+  top: 0;
+  right: 97.16%;
+  bottom: 96.85%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.smswebTips {
+  position: absolute;
+  top: 140.01px;
+  left: 219px;
+  display: inline-block;
+  width: 59px;
+  height: 6px;
+}
+.ksh600KshContainer,
+.onceAWeek,
+.onceAWeek1 {
+  position: absolute;
+  top: 110.01px;
+  left: 133.01px;
+  display: inline-block;
+  width: 41.7px;
+  height: 103px;
+}
+.onceAWeek,
+.onceAWeek1 {
+  top: 179.01px;
+  left: 211px;
+  width: 73px;
+  height: 12px;
+}
+.onceAWeek1 {
+  top: 192.01px;
+  height: 11px;
+}
+.silver {
+  position: absolute;
+  top: 88.96px;
+  left: 20px;
+  width: 284px;
+  height: 213.01px;
+}
+.x2Ov15un15Ov25un25B {
+  margin: 0;
+  font-size: var(--font-size-5xs);
+  padding-left: var(--padding-2xs);
+}
+.gold14DaysContainer,
+.smswebTips1 {
+  position: absolute;
+  display: inline-block;
+}
+.gold14DaysContainer {
+  top: 115.58px;
+  left: 12px;
+  width: 129px;
+  height: 18px;
+  font-size: var(--font-size-2xs);
+}
+.smswebTips1 {
+  top: 166.58px;
+  left: 218px;
+  width: 64px;
+  height: 6px;
+}
+.ksh1000KshContainer,
+.onceAWeek2,
+.onceAWeek3 {
+  position: absolute;
+  top: 130.58px;
+  left: 135px;
+  display: inline-block;
+  width: 41px;
+  height: 98px;
+}
+.onceAWeek2,
+.onceAWeek3 {
+  top: 202.58px;
+  left: 218px;
+  width: 68px;
+  height: 12px;
+}
+.onceAWeek3 {
+  top: 214.58px;
+  height: 11px;
+}
+.vectorIcon2 {
+  position: absolute;
+  height: 2.94%;
+  width: 2.92%;
+  top: 0;
+  right: 97.08%;
+  bottom: 97.06%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.gold {
+  position: absolute;
+  top: 196.39px;
+  left: 20px;
+  width: 286px;
+  height: 228.58px;
+}
+.ksh3000KshContainer {
+  position: absolute;
+  top: 152.51px;
+  left: 133.91px;
+  display: inline-block;
+  width: 50.09px;
+  height: 82px;
+}
+.vip2 {
+  font-size: var(--font-size-2xs);
+  font-family: var(--font-poppins);
+}
+.vip1 {
+  margin: 0;
+  font-size: var(--font-size-4xs);
+}
+.weekly14Days30Days {
+  margin: 0;
+  padding-left: var(--padding-2xs);
+}
+.vipWeekly14Container {
+  position: absolute;
+  top: 134.51px;
+  left: 12px;
+  display: inline-block;
+  width: 129px;
+  height: 124px;
+}
+.vectorIcon3 {
+  position: absolute;
+  height: 2.27%;
+  width: 2.9%;
+  top: 0;
+  right: 97.1%;
+  bottom: 97.73%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.smswebTips2 {
+  position: absolute;
+  top: 165.51px;
+  left: 222px;
+  display: inline-block;
+  width: 64px;
+  height: 6px;
+}
+.vip {
+  position: absolute;
+  top: 300.46px;
+  left: 20px;
+  width: 286px;
+  height: 258.51px;
+}
+.subscriptionOptions {
+  position: absolute;
+  top: 428.03px;
+  left: 25px;
+  width: 343px;
+  height: 589.97px;
+  font-size: var(--font-size-5xs);
+}
+.joinNowChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 140px;
+  height: 35px;
+}
+.joinNow1 {
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  display: inline-block;
+  width: 81px;
+  height: 25px;
+}
+.joinNow {
+  position: absolute;
+  top: 1043px;
+  left: 123px;
+  width: 140px;
+  height: 35px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.subcriptionPhone {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1154px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-12xl);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

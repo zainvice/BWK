@@ -1,0 +1,484 @@
+.betWiseKenya,
+.bwk {
+ position: absolute;
+ left: 40px;
+ top: 30px
+}
+.bwk {
+  top: 25px;
+  display: inline-block;
+  width: 275px;
+  height: 53px;
+}
+.betWiseKenya {
+  top:65px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.logo,
+.signupChild {
+  
+  width: 275px;
+  height: 68px;
+}
+.signupChild {
+  border-radius: var(--br-xl);
+  width: 118.57px;
+  height: 38px;
+}
+.signUp {
+  margin-left: 45px;
+  margin-top: 4px;
+  align-self: flex-end;
+  display: inline-block;
+  width: 75.69px;
+  height: 16.04px;
+}
+.loginChild,
+.signup {
+  position: absolute;
+  top:45px;
+  margin-left: 50px;
+  border: 2px solid #FF9900;
+  border-radius: 40px;
+  width: 118.57px;
+  height: 38px;
+}
+
+.signup:hover {
+  color: white  ;
+  border: 2px solid #FF9900;
+  background-color: #FF9900;
+  border-radius: 40px;
+  width: 118.57px;
+  height: 38px;
+}
+.loginChild {
+
+  border-radius: var(--br-xl);
+  width: 95.08px;
+}
+.login1 {
+  position: relative;
+  margin-top: 5px;
+  margin-left: 20px;
+  display: inline-block;
+  width: 56.31px;
+  height: 22.8px;
+}
+.login,
+.loginsignup {
+
+  height: 38px;
+  
+}
+.login {
+  position: absolute;
+  top:45px;
+  width: 95.08px;
+  background-color: #FF9900;
+  border-radius: 40px;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+
+.login:hover {
+  border: 2px solid #FF9900;
+  background-color: #ffffff;
+  color: #FF9900;
+}
+.loginsignup {
+  align-self: flex-end;
+  margin-left: 30px;
+  width: 180px;
+  font-size: var(--font-size-base);
+  cursor: pointer;
+}
+.home {
+  position: relative;
+  color: var(--color-orange);
+}
+.subscriptions {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-poppins);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.smsBetting,
+.subscriptions {
+  position: relative;
+  cursor: pointer;
+}
+.navbar {
+  position: relative;
+  top: 20px;
+  left: -220px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 39px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  height: 68px;
+  justify-content: flex-end;
+  flex-direction: row;  
+  margin-left: 0px;
+  margin-top: 30px;
+}
+.homeTop {
+  
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 35px;
+  margin-top: 40px;
+  display: flex;
+  border-radius: 80px;
+  border: 1px solid black;
+  width: 95%;
+  height: 510px;
+  font-size: var(--font-size-44xl);
+  color: var(--color-white);
+}
+.image1Icon {
+
+  width: 100%;
+  border-radius: var(--br-xl);
+  height: 510px;
+  object-fit: cover;
+}
+.welcomeToBetContainer {
+  position: absolute;
+  top: 300px;
+  left: 250px;
+  font-family: var(--font-magra);
+}
+.becomeOneOf {
+  position: absolute;
+  top: 390px;
+  left: 550px;
+  font-size: var(--font-size-lgi);
+}
+.frameChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 126px;
+  height: 38px;
+}
+.signUp1 {
+  position: absolute;
+  top: 6px;
+  left: 25.18px;
+  display: inline-block;
+  width: 100.72px;
+  height: 23px;
+}
+
+.vectorParent {
+  position: absolute;
+  background-color: #FF9900;
+  border: 2px solid #FF9900;
+  border-radius: 40px;
+  top: 450px;
+  left: 600px;
+  width: 126px;
+  height: 40px;
+  font-size: var(--font-size-lg);
+  cursor: pointer;
+}
+.vectorParent:hover{
+  background-color: rgb(255, 255, 255);
+  color: #FF9900;
+
+}
+
+
+.image2Icon {
+  position: absolute;
+  
+  top: 0;
+  left: 868px;
+  width: 276px;
+  height: 500px;
+  object-fit: cover;
+}
+.forYou {
+  color: var(--color-gold);
+}
+.whatWeDoContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--font-magra);
+}
+.frameItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 147px;
+  height: 41px;
+}
+.joinNow {
+  position: absolute;
+  top: 6.47px;
+  left: 29.38px;
+  display: inline-block;
+  width: 117.5px;
+  height: 24.82px;
+}
+.vectorGroup {
+  position: absolute;
+  top: 430px;
+  left: 616px;
+  width: 147px;
+  height: 41px;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+}
+.welcomeToOur {
+  margin: 0;
+}
+.welcomeToOurContainer {
+  position: relative;
+  top: 82px;
+  left: 5px;
+  font-size: var(--font-size-lgi);
+  display: inline-block;
+  width: 70%;
+}
+
+
+.homeDesp {
+  position: relative;
+  top: 0px;
+  left: 50px;
+  width: 80%;
+  height: 500px;
+  font-size: 50px;
+  color: var(--color-black);
+}
+.homepage {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 1251px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-18xl);
+  color: var(--color-orange);
+  font-family: var(--font-poppins);
+}
+.sideNavIcon {
+  display: none;
+}
+@media (min-width: 200px) and (max-width: 1192px) {
+  .navbar{
+    display: none;
+  }
+  .image2Icon {
+    position: absolute;
+    top: 369px;
+    left: 36px;
+    width: 276px;
+    height: 500px;
+    object-fit: cover;
+  }
+  .betWiseKenya,
+  .bwk {
+    position: relative;
+    display: inline-block;
+    
+  }
+  .bwk {
+    top: 0;
+    left: 0;
+    width: 92.7px;
+    height: 53px;
+  }
+  .betWiseKenya {
+    top: -40px;
+    left: 2px;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    width: 181.99px;
+  }
+  .sideNavIcon {
+    display:flex;
+    position: relative;
+    top: 15px;
+    left: -10px;
+    width: 25.92px;
+    height: 19px;
+    cursor: pointer;
+  }
+  .loginsignup{
+    display: none;
+  }
+
+  .logo {
+    position: relative;
+    width: 30%;
+    top: -10px;
+    align-self: flex-start;
+
+    
+  }
+  .header {
+    position: relative;
+    top: -20px;
+    left: 20px;
+    height: 55px;
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    color: var(--color-orange);
+  }
+  .homeTop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 95%;
+    margin-left: 15px;
+    border: 1px solid black;
+    height: 40%;
+  }
+  .image1Icon {
+    position: relative;
+    
+    border-radius: var(--br-xl);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+  .welcomeToBetContainer {
+    position: relative;
+    top: -250px;
+    left: 10px;
+    font-size: var(--font-size-12xl);
+    font-family: var(--font-magra);
+    text-align: center;
+    width: 80%;
+    height: 30px;
+  }
+  .becomeOneOf {
+    top: 350px;
+    left: 50px;
+    font-size: var(--font-size-mid);
+    text-align: center;
+    width: 80%;
+    height: 11px;
+  }
+  .groupChild {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    width: 53.62px;
+    height: 19.08px;
+  }
+  .signUp1 {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 1px;
+    top: 3px;
+  }
+  .vectorParent {
+
+    top: 420px;
+    left: 220px;
+    width: 12%;
+    height: 23px;
+    font-size: var(--font-size-5xs);
+  }
+  .forYou {
+    color: var(--color-gold);
+  }
+  .homeDesp{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 95%;
+    top: 20px;
+    left: 15px;
+    border: 1px solid black;
+    height: 80%;
+  }
+  .image2Icon {
+      position: relative;
+      justify-content: center;
+      top: 150px;
+      left: 0px;
+      object-fit: cover;
+  }
+  .whatWeDoContainer {
+    position: relative;
+    top: -480px;
+    text-align: center;
+    font-size: var(--font-size-14xl);
+    font-family: var(--font-magra);
+    color: var(--color-black);
+  }
+  .joinNow {
+    position: relative;
+    border-radius: var(--br-xl);
+    font-size: var(--font-size-sm);
+    width: 100%;
+    /*background-color: #FF9900;*/
+
+    text-align: center;
+    left: 0;
+    height: 35px;
+    cursor: pointer;
+  }
+  .vectorGroup{
+    position: relative;
+    width: 20%;
+
+    left: 150px;
+    top: 0px;
+  }
+
+
+  .welcomeToOurContainer {
+    position: relative;
+    top: -490px;
+    left: 0px;
+    font-size: var(--font-size-mini);
+    color: var(--color-black);
+    width: 95%;
+  }
+  .homepage{
+    background-color: var(--color-whitesmoke-100);
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 948px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-12xl);
+    color: var(--color-white);
+    font-family: var(--font-poppins);
+  }
+  
+}

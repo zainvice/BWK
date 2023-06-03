@@ -1,0 +1,105 @@
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  display: inline-block;
+}
+.bwk {
+  top: 0;
+  left: 0;
+  width: 92.7px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 34px;
+  left: 2.04px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  width: 181.99px;
+}
+.sideNavIcon {
+  position: absolute;
+  top: 24.5px;
+  left: 320.5px;
+  width: 25.92px;
+  height: 19px;
+  cursor: pointer;
+}
+.header,
+.liveScores,
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 344.92px;
+  height: 55px;
+}
+.header,
+.liveScores {
+  top: 21px;
+  left: 15px;
+}
+.liveScores {
+  top: 125px;
+  left: 126px;
+  font-size: var(--font-size-6xl);
+  display: inline-block;
+  width: 159px;
+  height: 43px;
+  cursor: pointer;
+}
+.livescorePhoneChild {
+  position: absolute;
+  top: 187px;
+  left: 27px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-100);
+  width: 340px;
+  height: 414px;
+}
+.theApiWill {
+  position: absolute;
+  top: 372px;
+  left: 91px;
+  font-size: var(--font-size-xs);
+  display: inline-block;
+  color: var(--color-black);
+  width: 210px;
+  height: 22px;
+}
+.joinNowChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 140px;
+  height: 35px;
+}
+.joinNow1 {
+  position: absolute;
+  top: 6px;
+  left: 30px;
+  display: inline-block;
+  width: 81px;
+  height: 25px;
+}
+.joinNow {
+  position: absolute;
+  top: 667px;
+  left: 126px;
+  width: 140px;
+  height: 35px;
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+}
+.livescorePhone {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 788px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-12xl);
+  color: var(--color-orange);
+  font-family: var(--font-poppins);
+}

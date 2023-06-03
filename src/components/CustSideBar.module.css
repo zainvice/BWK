@@ -1,0 +1,89 @@
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  display: inline-block;
+}
+.bwk {
+  top: 835px;
+  left: 18px;
+  font-size: var(--font-size-12xl);
+  width: 91px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 869px;
+  left: 20px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  width: 178.65px;
+}
+.loginsignupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  width: 111.98px;
+  height: 34px;
+}
+.logout {
+  position: absolute;
+  top: 4px;
+  left: 23px;
+  display: inline-block;
+  width: 66.32px;
+  height: 20.4px;
+}
+.loginsignup {
+  top: 759px;
+  left: 20px;
+  width: 111.98px;
+  height: 34px;
+  cursor: pointer;
+  font-size: var(--font-size-mid);
+  color: var(--color-orange);
+}
+.home,
+.loginsignup,
+.x {
+  position: absolute;
+}
+.home {
+  top: 87px;
+  left: 25px;
+  cursor: pointer;
+}
+.x {
+  top: 18px;
+  left: 9px;
+  font-size: var(--font-size-3xl);
+}
+.contactUs,
+.liveScore,
+.subscriptions {
+  position: absolute;
+  top: 127px;
+  left: 25px;
+  cursor: pointer;
+}
+.contactUs,
+.liveScore {
+  top: 207px;
+  left: 27px;
+}
+.liveScore {
+  top: 167px;
+  left: 25px;
+}
+.custsideBar {
+  position: relative;
+  background-color: var(--color-orange);
+  width: 246px;
+  height: 903px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

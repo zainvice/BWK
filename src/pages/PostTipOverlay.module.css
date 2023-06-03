@@ -1,0 +1,213 @@
+.postTipOverlayChild {
+  position: absolute;
+  top: 53px;
+  left: 27px;
+  border-radius: var(--br-112xl);
+  background-color: var(--color-whitesmoke-200);
+  width: 1256px;
+  height: 678px;
+}
+.postTipOverlayItem {
+  position: absolute;
+  top: 139px;
+  left: 84px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-100);
+  width: 480px;
+  height: 60px;
+}
+.enterNameOf {
+  position: absolute;
+  top: 103px;
+  left: 101px;
+}
+.addYourAnalysis,
+.eg7080,
+.egAnyFootball,
+.egAnyFootball1 {
+  position: absolute;
+  top: 199px;
+  left: 102px;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.addYourAnalysis,
+.eg7080,
+.egAnyFootball1 {
+  left: 687px;
+}
+.addYourAnalysis,
+.eg7080 {
+  top: 613px;
+  left: 107px;
+}
+.eg7080 {
+  top: 388px;
+}
+.postTipOverlayInner {
+  position: absolute;
+  top: 469px;
+  left: 84px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-100);
+  width: 480px;
+  height: 135px;
+}
+.addYourAnalysis1 {
+  position: absolute;
+  top: 433px;
+  left: 101px;
+}
+.anyAdditionalComments {
+  position: absolute;
+  top: 615px;
+  left: 678px;
+  font-size: var(--font-size-base);
+  color: var(--color-darkslategray-200);
+}
+.rectangleDiv {
+  position: absolute;
+  top: 471px;
+  left: 655px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-100);
+  width: 480px;
+  height: 135px;
+}
+.addYourAdditional {
+  position: absolute;
+  top: 435px;
+  left: 672px;
+}
+.postTipOverlayChild1 {
+  position: absolute;
+  top: 139px;
+  left: 660px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-100);
+  width: 480px;
+  height: 60px;
+}
+.enterNameOf1 {
+  position: absolute;
+  top: 103px;
+  left: 677px;
+}
+.postTipOverlayChild2 {
+  position: absolute;
+  top: 328px;
+  left: 84px;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-100);
+  width: 480px;
+  height: 60px;
+}
+.div,
+.enterProbabilityFor,
+.probabilityOfThe {
+  position: absolute;
+  top: 287px;
+  left: 101px;
+}
+.div,
+.probabilityOfThe {
+  left: 677px;
+}
+.div {
+  top: 378px;
+  left: 935px;
+}
+.pertentageBarChild,
+.pertentageBarItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gainsboro-100);
+  width: 480px;
+  height: 40px;
+}
+.pertentageBarItem {
+  background-color: var(--color-orange);
+  width: 310px;
+}
+.addNewButChild,
+.pertentageBar {
+  position: absolute;
+  top: 338px;
+  left: 660px;
+  width: 480px;
+  height: 40px;
+}
+.addNewButChild {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-orange);
+  width: 140px;
+  cursor: pointer;
+}
+.vectorIcon {
+  position: absolute;
+  height: 37.5%;
+  width: 4.82%;
+  top: 30%;
+  right: 62.06%;
+  bottom: 32.5%;
+  left: 33.12%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.addNewButItem,
+.postNow {
+  position: absolute;
+  top: 10px;
+  left: 24px;
+}
+.addNewButItem {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-21xl);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 140px;
+  height: 40px;
+}
+.cancel {
+  position: absolute;
+  top: 10px;
+  left: 37px;
+  display: inline-block;
+  width: 98px;
+}
+.addNewBut,
+.addNewBut1 {
+  position: absolute;
+  top: 0;
+  left: 171px;
+  width: 140px;
+  height: 40px;
+  color: var(--color-black);
+}
+.addNewBut {
+  top: 653px;
+  left: 896px;
+  width: 311px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.postTipOverlay {
+  position: relative;
+  background-color: var(--color-gray-500);
+  width: 1309px;
+  height: 740px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

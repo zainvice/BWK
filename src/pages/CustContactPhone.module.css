@@ -1,0 +1,203 @@
+.betWiseKenya,
+.bwk {
+  position: absolute;
+  display: inline-block;
+}
+.bwk {
+  top: 0;
+  left: 0;
+  width: 92.7px;
+  height: 53px;
+}
+.betWiseKenya {
+  top: 34px;
+  left: 2.04px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+  width: 181.99px;
+}
+.sideNavIcon {
+  position: absolute;
+  top: 24.5px;
+  left: 320.5px;
+  width: 25.92px;
+  height: 19px;
+  cursor: pointer;
+}
+.header,
+.image3Icon,
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 344.92px;
+  height: 55px;
+}
+.header,
+.image3Icon {
+  top: 21px;
+  left: 15px;
+}
+.image3Icon {
+  top: 107px;
+  left: 13px;
+  border-radius: var(--br-21xl);
+  width: 366px;
+  height: 647px;
+  object-fit: cover;
+}
+.loginFormChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-31xl);
+  background-color: var(--color-gray-300);
+  width: 345.93px;
+  height: 471px;
+}
+.loginFormInner,
+.loginFormItem {
+  position: absolute;
+  top: 118.14px;
+  left: 28.73px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-orange);
+  box-sizing: border-box;
+  width: 293.16px;
+  height: 38.61px;
+}
+.loginFormInner {
+  top: 276px;
+  left: 29px;
+  background-color: var(--color-gainsboro-200);
+  height: 75.67px;
+}
+.concern,
+.eg0712345678,
+.phoneNumber {
+  position: absolute;
+  top: 97px;
+  left: 36px;
+  display: inline-block;
+  width: 106px;
+  height: 13px;
+}
+.concern,
+.eg0712345678 {
+  top: 249px;
+  left: 37px;
+  width: 64px;
+  height: 14px;
+}
+.eg0712345678 {
+  top: 129px;
+  left: 42px;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkgray);
+  width: 110px;
+  height: 15px;
+}
+.rectangleDiv {
+  position: absolute;
+  top: 191.49px;
+  left: 28.73px;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-orange);
+  box-sizing: border-box;
+  width: 293.16px;
+  height: 38.61px;
+}
+.email {
+  position: absolute;
+  top: 171px;
+  left: 38px;
+  display: inline-block;
+  width: 51px;
+  height: 14px;
+}
+.stateYourComplaints,
+.submitYourComplaint,
+.yourEmail {
+  position: absolute;
+  top: 199px;
+  left: 44px;
+  font-size: var(--font-size-smi);
+  color: var(--color-darkgray);
+  display: inline-block;
+  width: 93px;
+  height: 16px;
+}
+.stateYourComplaints,
+.submitYourComplaint {
+  top: 283.86px;
+  left: 42.27px;
+  width: 231px;
+  height: 15px;
+}
+.submitYourComplaint {
+  top: 371.4px;
+  left: 36.35px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-dimgray-100);
+  width: 323.65px;
+  height: 13.13px;
+}
+.loginChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-orange);
+  width: 114px;
+  height: 32px;
+}
+.submit {
+  position: absolute;
+  top: 8px;
+  left: 33px;
+  display: inline-block;
+  width: 46px;
+  height: 14px;
+}
+.login,
+.support {
+  position: absolute;
+  top: 407px;
+  left: 119px;
+  width: 114px;
+  height: 32px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-white);
+}
+.support {
+  top: 41px;
+  left: 114px;
+  font-size: var(--font-size-11xl);
+  display: inline-block;
+  color: var(--color-orange);
+  width: 136px;
+  height: 49px;
+  cursor: pointer;
+}
+.loginForm {
+  position: absolute;
+  top: 203px;
+  left: 25px;
+  width: 360px;
+  height: 471px;
+  font-size: var(--font-size-xs);
+  color: var(--color-black);
+}
+.custContactPhone {
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  width: 100%;
+  height: 903px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-12xl);
+  color: var(--color-orange);
+  font-family: var(--font-poppins);
+}

@@ -1,0 +1,129 @@
+.adminNotificationsChild,
+.notiChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.adminNotificationsChild {
+  border-radius: 42px;
+  background-color: var(--color-white);
+  border: 3px solid var(--color-orange);
+  width: 326px;
+  height: 398px;
+}
+.notiChild {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gainsboro-200);
+  border: 1px solid var(--color-orange);
+  width: 305px;
+  height: 68px;
+}
+.newSupportRequestContainer {
+  position: absolute;
+  top: 14px;
+  left: 23.39px;
+  display: inline-block;
+  width: 258.22px;
+  height: 24px;
+  cursor: pointer;
+}
+.justNow,
+.noti {
+  position: absolute;
+  top: 44px;
+}
+.justNow {
+  left: 246.06px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-300);
+  display: inline-block;
+  width: 56.13px;
+  height: 24px;
+  cursor: pointer;
+}
+.noti {
+  left: 11px;
+  width: 305px;
+  height: 68px;
+}
+.minAgo,
+.newSupportRequestContainer1,
+.showMore {
+  position: absolute;
+  display: inline-block;
+  height: 24px;
+  cursor: pointer;
+}
+.newSupportRequestContainer1 {
+  top: 4px;
+  left: 23.39px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  width: 258.22px;
+}
+.minAgo,
+.showMore {
+  top: 44px;
+  left: 241px;
+  width: 66px;
+}
+.showMore {
+  top: 252px;
+  left: 121px;
+  width: 74.85px;
+}
+.minAgo1,
+.noti1 {
+  position: absolute;
+  top: 122px;
+  left: 11px;
+  width: 307px;
+  height: 276px;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-300);
+}
+.minAgo1 {
+  top: 44px;
+  left: 236px;
+  display: inline-block;
+  width: 66px;
+  height: 24px;
+  cursor: pointer;
+}
+.noti2,
+.noti3,
+.notifications {
+  position: absolute;
+  top: 200px;
+  left: 11px;
+  width: 305px;
+  height: 68px;
+}
+.noti3,
+.notifications {
+  top: 285px;
+}
+.notifications {
+  top: 10px;
+  left: 101px;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  color: var(--color-orange);
+  width: 125px;
+  height: 25px;
+  cursor: pointer;
+}
+.adminNotifications {
+  position: relative;
+  background-color: var(--color-gray-500);
+  width: 326px;
+  height: 398px;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

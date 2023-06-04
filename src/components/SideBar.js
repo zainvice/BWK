@@ -4,20 +4,12 @@ import styles from "./SideBar.module.css";
 const SideBar = ({ onClose }) => {
   const navigate = useNavigate();
 
-  const onRectangleClick = useCallback(() => {
-    navigate("/loginphone");
-  }, [navigate]);
-
-  const onRectangle1Click = useCallback(() => {
-    navigate("/signupphone");
-  }, [navigate]);
-
   const onLoginTextClick = useCallback(() => {
-    navigate("/loginphone");
+    navigate("/login");
   }, [navigate]);
 
   const onSignUpTextClick = useCallback(() => {
-    navigate("/signupphone");
+    navigate("/signup");
   }, [navigate]);
 
   const onHomeTextClick = useCallback(() => {
@@ -29,11 +21,11 @@ const SideBar = ({ onClose }) => {
   }, [navigate]);
 
   const onContactUsTextClick = useCallback(() => {
-    navigate("/contactphone");
+    navigate("/contact-us");
   }, [navigate]);
 
   const onLiveScoreTextClick = useCallback(() => {
-    navigate("/livescorephone");
+    navigate("/live-score");
   }, [navigate]);
 
   const onWebBettingTextClick = useCallback(() => {
@@ -62,17 +54,17 @@ const SideBar = ({ onClose }) => {
         <div className={styles.subscriptions} onClick={onSubscriptionsTextClick}>
           Subscriptions
         </div>
-        <div className={styles.contactUs} onClick={onContactUsTextClick}>
-          Contact Us
-        </div>
-        <div className={styles.liveScore} onClick={onLiveScoreTextClick}>
-          Live Score
+        <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
+          SMS Betting
         </div>
         <div className={styles.webBetting} onClick={onWebBettingTextClick}>
           Web Betting
         </div>
-        <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
-          SMS Betting
+        <div className={styles.liveScore} onClick={onLiveScoreTextClick}>
+          Live Score
+        </div>
+        <div className={styles.contactUs} onClick={onContactUsTextClick}>
+          Contact Us
         </div>
       </div>
     </div>

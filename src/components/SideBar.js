@@ -21,11 +21,11 @@ const SideBar = ({ onClose }) => {
   }, [navigate]);
 
   const onHomeTextClick = useCallback(() => {
-    navigate("/homephone");
+    navigate("/homepage");
   }, [navigate]);
 
   const onSubscriptionsTextClick = useCallback(() => {
-    navigate("/subcriptionphone");
+    navigate("/subscriptions");
   }, [navigate]);
 
   const onContactUsTextClick = useCallback(() => {
@@ -37,55 +37,43 @@ const SideBar = ({ onClose }) => {
   }, [navigate]);
 
   const onWebBettingTextClick = useCallback(() => {
-    navigate("/web-bettingphone");
+    navigate("/web-betting");
   }, [navigate]);
 
   const onSMSBettingTextClick = useCallback(() => {
-    navigate("/sms-bettingphone");
+    navigate("/sms-betting");
   }, [navigate]);
 
   return (
     <div className={styles.sideBar}>
-      <div className={styles.bwk}>BWK</div>
-      <div className={styles.betWiseKenya}>Bet Wise Kenya</div>
+        <button className={styles.x} onClick={onClose}>X</button>
       <div className={styles.loginsignup}>
-        <img
-          className={styles.loginsignupChild}
-          alt=""
-          src="/rectangle-11.svg"
-          onClick={onRectangleClick}
-        />
-        <img
-          className={styles.loginsignupItem}
-          alt=""
-          src="/rectangle-21.svg"
-          onClick={onRectangle1Click}
-        />
-        <b className={styles.login} onClick={onLoginTextClick}>
+        <a className={styles.login+" "+styles.selectedLogin} onClick={onLoginTextClick}>
           Login
-        </b>
-        <b className={styles.signUp} onClick={onSignUpTextClick}>
+        </a>
+        <a className={styles.signup} onClick={onSignUpTextClick}>
           Sign Up
-        </b>
+        </a>
       </div>
-      <div className={styles.home} onClick={onHomeTextClick}>
-        Home
-      </div>
-      <b className={styles.x}>X</b>
-      <div className={styles.subscriptions} onClick={onSubscriptionsTextClick}>
-        Subscriptions
-      </div>
-      <div className={styles.contactUs} onClick={onContactUsTextClick}>
-        Contact Us
-      </div>
-      <div className={styles.liveScore} onClick={onLiveScoreTextClick}>
-        Live Score
-      </div>
-      <div className={styles.webBetting} onClick={onWebBettingTextClick}>
-        Web Betting
-      </div>
-      <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
-        SMS Betting
+      <div className={styles.navbar}>
+        <div className={styles.home} onClick={onHomeTextClick}>
+          Home
+        </div>
+        <div className={styles.subscriptions} onClick={onSubscriptionsTextClick}>
+          Subscriptions
+        </div>
+        <div className={styles.contactUs} onClick={onContactUsTextClick}>
+          Contact Us
+        </div>
+        <div className={styles.liveScore} onClick={onLiveScoreTextClick}>
+          Live Score
+        </div>
+        <div className={styles.webBetting} onClick={onWebBettingTextClick}>
+          Web Betting
+        </div>
+        <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
+          SMS Betting
+        </div>
       </div>
     </div>
   );

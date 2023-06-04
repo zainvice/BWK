@@ -7,71 +7,7 @@
   height: 748px;
   object-fit: cover;
 }
-.betWiseKenya,
-.bwk {
-  position: absolute;
-  left: 0;
-}
-.bwk {
-  top: 0;
-  display: inline-block;
-  width: 275px;
-  height: 53px;
-}
-.betWiseKenya {
-  top: 41px;
-  font-size: var(--font-size-lg);
-  color: var(--color-black);
-}
-.home,
-.logo,
-.subscriptions {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-.logo {
-  width: 275px;
-  height: 68px;
-}
-.home,
-.subscriptions {
-  cursor: pointer;
-}
-.subscriptions {
-  left: 93px;
-}
-.contactUs,
-.liveScore,
-.smsBetting,
-.webBetting {
-  position: absolute;
-  top: 0;
-  left: 254px;
-  cursor: pointer;
-}
-.contactUs,
-.liveScore,
-.webBetting {
-  left: 398px;
-}
-.contactUs,
-.liveScore {
-  left: 547px;
-}
-.contactUs {
-  left: 676px;
-}
-.navbar {
-  position: absolute;
-  top: 27px;
-  left: 233px;
-  width: 776px;
-  height: 27px;
-  font-size: var(--font-size-lg);
-  color: var(--color-black);
-}
-.header,
+
 .loginFormChild {
   position: absolute;
   top: 28px;

@@ -17,7 +17,10 @@ const SMSBetting = () => {
     <div className={styles.smsBetting}>
       <Header />
       <div className={styles.betOnTheContainer}>
-        <p className={styles.betOnThe}>
+        <b className={styles.smsBetting2} onClick={onSMSBettingText1Click}>
+          SMS Betting
+        </b>
+          <p className={styles.betOnThe}>
           Bet on the go with our convenient SMS betting service. We understand
           the need for speed and simplicity, which is why we provide you with
           the option to receive our expert tips directly to your mobile device
@@ -51,12 +54,9 @@ const SMSBetting = () => {
           <p className={styles.betOnThe}>BTTS</p>
         </div>
       </div>
-      <b className={styles.smsBetting2} onClick={onSMSBettingText1Click}>
-        SMS Betting
-      </b>
-      <div className={styles.vectorParent} onClick={onGroupContainerClick}>
-        <img className={styles.groupChild} alt="" src="/rectangle-31.svg" />
-        <b className={styles.joinNow}>Join Now</b>
+      
+      <div className={styles.vectorParent}>
+        <button className={styles.joinNow} onClick={onGroupContainerClick}>Join Now</button>
       </div>
     </div>
   );

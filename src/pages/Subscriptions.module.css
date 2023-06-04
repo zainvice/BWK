@@ -16,12 +16,12 @@
 }
 
 .readyToTakeContainer{
-  padding: 0 10%;
+  padding: 0 15%;
 }
 
 @media screen and (max-width: 1440px) {
   .readyToTakeContainer{
-    padding: 1rem 5%
+    padding: 1rem 10%
   }
 }
 

@@ -61,6 +61,7 @@
 /* Side Navigation */
 .sideNav{
   display: none;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 1440px) {

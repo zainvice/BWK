@@ -37,11 +37,11 @@ const SideBar = ({ onClose }) => {
   }, [navigate]);
 
   const onWebBettingTextClick = useCallback(() => {
-    navigate("/web-bettingphone");
+    navigate("/web-betting");
   }, [navigate]);
 
   const onSMSBettingTextClick = useCallback(() => {
-    navigate("/sms-bettingphone");
+    navigate("/sms-betting");
   }, [navigate]);
 
   return (

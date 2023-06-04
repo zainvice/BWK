@@ -1,22 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/utilities';
+@import 'tailwindcss/components';
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Magra:wght@700&display=swap");
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
 
 *,
 *::after, 
-*::before
-.div{
+*::before,
+div{
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
   line-height: normal;
-}
-
-#root{
   background: var(--color-whitesmoke-200);
 }
 

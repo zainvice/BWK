@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./CustomerSUBPage.module.css";
+import CHeader from "../components/CustomerHeader";
 const CustomerSUBPage = () => {
   const navigate = useNavigate();
 
@@ -42,38 +43,8 @@ const CustomerSUBPage = () => {
 
   return (
     <div className={styles.customerSubPage}>
-      <div className={styles.vectorParent} onClick={onGroupContainerClick}>
-        <img className={styles.groupChild} alt="" src="/rectangle-3.svg" />
-        <b className={styles.logout}>
-          <p className={styles.bronzeOneDay}>Logout</p>
-        </b>
-      </div>
-      <div className={styles.header}>
-        <div className={styles.logo} onClick={onLogoContainerClick}>
-          <div className={styles.bwk}>BWK</div>
-          <div className={styles.betWiseKenya}>Bet Wise Kenya</div>
-        </div>
-        <div className={styles.navbar}>
-          <div className={styles.home} onClick={onHomeTextClick}>
-            Home
-          </div>
-          <div
-            className={styles.subscriptions}
-            onClick={onSubscriptionsTextClick}
-          >
-            Subscriptions
-          </div>
-          <div className={styles.liveScore} onClick={onLiveScoreTextClick}>
-            Live Score
-          </div>
-        </div>
-      </div>
-      <img
-        className={styles.image4Icon}
-        alt=""
-        src="/image-41@2x.png"
-        onClick={onImage4Click}
-      />
+      <CHeader/>
+      
       <b className={styles.subscriptions1} onClick={onSubscriptionsText1Click}>
         Subscriptions
       </b>

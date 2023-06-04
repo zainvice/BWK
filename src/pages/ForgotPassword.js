@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./ForgotPassword.module.css";
+import Header from "../components/Header";
 const ForgotPassword = () => {
   const navigate = useNavigate();
 
@@ -39,35 +40,7 @@ const ForgotPassword = () => {
   return (
     <div className={styles.forgotPassword}>
       <img className={styles.image3Icon} alt="" src="/image-32@2x.png" />
-      <div className={styles.header}>
-        <div className={styles.logo}>
-          <div className={styles.bwk}>BWK</div>
-          <div className={styles.betWiseKenya}>Bet Wise Kenya</div>
-        </div>
-        <div className={styles.navbar}>
-          <div className={styles.home} onClick={onHomeTextClick}>
-            Home
-          </div>
-          <div
-            className={styles.subscriptions}
-            onClick={onSubscriptionsTextClick}
-          >
-            Subscriptions
-          </div>
-          <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
-            SMS Betting
-          </div>
-          <div className={styles.webBetting} onClick={onWebBettingTextClick}>
-            Web Betting
-          </div>
-          <div className={styles.liveScore} onClick={onLiveScoreTextClick}>
-            Live Score
-          </div>
-          <div className={styles.contactUs} onClick={onContactUsTextClick}>
-            Contact Us
-          </div>
-        </div>
-      </div>
+      <Header/>
       <div className={styles.loginForm}>
         <div className={styles.loginFormChild} />
         <div className={styles.loginFormItem} />

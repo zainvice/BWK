@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./RequestRecieved.module.css";
+import Header from "../components/Header";
 const RequestRecieved = () => {
   const navigate = useNavigate();
 
@@ -41,46 +42,9 @@ const RequestRecieved = () => {
   }, [navigate]);
 
   return (
+    <>
     <div className={styles.requestRecieved}>
-      <div className={styles.header}>
-        <div className={styles.logo}>
-          <div className={styles.bwk}>BWK</div>
-          <div className={styles.betWiseKenya}>Bet Wise Kenya</div>
-        </div>
-        <div className={styles.loginsignup}>
-          <div className={styles.signup} onClick={onSignupContainerClick}>
-            <img className={styles.signupChild} alt="" src="/rectangle-2.svg" />
-            <b className={styles.signUp}>Sign Up</b>
-          </div>
-          <div className={styles.login} onClick={onLOginContainerClick}>
-            <img className={styles.loginChild} alt="" src="/rectangle-1.svg" />
-            <b className={styles.login1}>Login</b>
-          </div>
-        </div>
-        <div className={styles.navbar}>
-          <div className={styles.home} onClick={onHomeTextClick}>
-            Home
-          </div>
-          <div
-            className={styles.subscriptions}
-            onClick={onSubscriptionsTextClick}
-          >
-            Subscriptions
-          </div>
-          <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
-            SMS Betting
-          </div>
-          <div className={styles.webBetting} onClick={onWebBettingTextClick}>
-            Web Betting
-          </div>
-          <div className={styles.liveScore} onClick={onLiveScoreTextClick}>
-            Live Score
-          </div>
-          <div className={styles.contactUs} onClick={onContactUsTextClick}>
-            Contact Us
-          </div>
-        </div>
-      </div>
+     <Header/>
       <img className={styles.image3Icon} alt="" src="/image-3@2x.png" />
       <div className={styles.loginForm}>
         <div className={styles.loginFormChild} />
@@ -99,6 +63,7 @@ const RequestRecieved = () => {
         </p>
       </div>
     </div>
+    </>
   );
 };
 

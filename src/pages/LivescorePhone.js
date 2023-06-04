@@ -52,15 +52,6 @@ const LivescorePhone = () => {
           <b className={styles.joinNow1}>Join Now</b>
         </div>
       </div>
-      {isSideBarOpen && (
-        <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Centered"
-          onOutsideClick={closeSideBar}
-        >
-          <SideBar onClose={closeSideBar} />
-        </PortalPopup>
-      )}
     </>
   );
 };

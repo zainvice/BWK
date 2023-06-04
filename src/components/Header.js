@@ -94,7 +94,7 @@ const Header = () => {
             {isSideBarOpen && (
                 <PortalPopup
                     overlayColor="rgba(113, 113, 113, 0.3)"
-                    placement="Left"
+                    placement="Top right"
                     onOutsideClick={closeSideBar}
                 >
                     <SideBar onClose={closeSideBar} />

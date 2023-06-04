@@ -1,34 +1,20 @@
-.liveScores {
-  position: absolute;
-  top: 145px;
-  left: 617px;
-  font-size: var(--font-size-29xl);
-  cursor: pointer;
-}
-.liveScoreChild {
-  position: absolute;
-  top: 277px;
-  left: 183px;
-  border-radius: var(--br-21xl);
-  background-color: var(--color-gainsboro-100);
-  width: 1114px;
-  height: 511px;
-}
-.theApiWill {
-  position: absolute;
-  top: 512px;
-  left: 533px;
-  font-size: var(--font-size-6xl);
-  color: var(--color-black);
-}
-.liveScore {
-  position: relative;
-  background-color: var(--color-whitesmoke-100);
-  width: 100%;
-  height: 1024px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-18xl);
-  color: var(--color-orange);
+.liveScore{
   font-family: var(--font-poppins);
+  text-align: center;
+}
+
+.liveScores {
+  color: var(--color-orange);
+  font-size: var(--font-size-13xl);
+}
+
+.liveScoreChild{
+  max-width: 800px;
+  height: 300px;
+  font-size: 1.2rem;
+  border-radius: 1rem;
+  line-height: 300px;
+  margin-top: 1.5rem;
+  margin: 1.5rem auto 0 auto ;
+  background-color: var(--color-gainsboro-100);
 }

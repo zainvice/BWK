@@ -1,6 +1,6 @@
 .smsBetting2,
 .smsTipsDetails{
-  font-size: xx-large;
+  font-size: var(--font-size-13xl);
   color: var(--color-orange);
 }
 

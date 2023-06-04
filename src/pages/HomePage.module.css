@@ -93,7 +93,7 @@
 }
 .joinNow {
   position: relative;
-  top: -40px;
+  top:5px;
   left: 29.38px;
   display: inline-block;
   width: 117.5px;
@@ -101,6 +101,8 @@
 }
 .vectorGroup {
   position: absolute;
+  background-color: #FF9900;
+  border-radius: 40px;
   top: 430px;
   left: 616px;
   width: 147px;
@@ -154,8 +156,15 @@
 .sideNavIcon {
   display: none;
 }
-
-@media (min-width: 793px) and (max-width: 1092px){
+@media (min-width: 993px) and (max-width: 1192px){
+    .navbar{
+    top: 30%;
+    left: -22%;
+    font-size: small;
+    gap: 15px;
+    }
+}
+@media (min-width: 800px) and (max-width: 992px){
   .homeDesp{
     margin-left: -50px;
   }
@@ -180,8 +189,10 @@
       left: 36%;
   }
 } 
-@media (min-width: 200px) and (max-width: 792px) {
-
+@media (min-width: 200px) and (max-width: 799px) {
+  .navbar{
+    display: none;
+  }
   .image2Icon {
     position: absolute;
     top: 369px;
@@ -206,7 +217,6 @@
   .image1Icon {
     position: relative;
     
-    border: 3px solid #FF9900;
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -299,7 +309,6 @@
     position: relative;
     top: 0%;
     left: 0%;
-    border: 2px solid #FF9900;
     text-align: center;
     cursor: pointer;
   }

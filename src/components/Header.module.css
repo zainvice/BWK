@@ -15,12 +15,16 @@
   width: 15%;
 }
 .bwk{
-  font-size: xx-large;
+  font-size: var(--font-size-18xl);
+  font-weight: 500;
   color: var(--color-orange);
 }
 .betWiseKenya{
   color: var(--color-black);
   font-size: small;
+  margin-top: -10px;
+  margin-left: 2px;
+  color: var(--color-black);
 }
 
 /* Navigation bar */
@@ -43,6 +47,9 @@
   align-items: center;
   border: 1px solid var(--color-orange);
   border-radius: 1rem;
+}
+.login{
+  color: var(--color-orange);
 }
 .login, 
 .signup{

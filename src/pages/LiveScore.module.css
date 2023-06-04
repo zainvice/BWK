@@ -1,5 +1,6 @@
 .liveScore{
   margin-top: 1rem;
+  padding: 0 2rem;
   font-family: var(--font-poppins);
   text-align: center;
 }
@@ -15,7 +16,6 @@
   font-size: 1.2rem;
   border-radius: 1rem;
   line-height: 300px;
-  margin-top: 1.5rem;
   margin: 1.5rem auto 0 auto ;
   background-color: var(--color-gainsboro-100);
 }

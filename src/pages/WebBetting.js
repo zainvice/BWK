@@ -53,11 +53,6 @@ const WebBetting = () => {
             <p className={styles.smsTipsDetails}>
               <b>WEB TIPS DETAILS</b>
             </p>
-            <p className={styles.blankLine}>
-              <span>
-                <span>&nbsp;</span>
-              </span>
-            </p>
             <p className={styles.x2}>
               <span>
                 <span>1X2</span>

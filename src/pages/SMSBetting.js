@@ -42,7 +42,7 @@ const SMSBetting = () => {
           className={styles.smsofferChild}
           alt=""
           src="/rectangle-151@2x.png"
-        />
+        /> 
         <div className={styles.smsTipsDetailsContainer}>
           <p className={styles.smsTipsDetails}>
             <b>SMS TIPS DETAILS</b>

@@ -47,6 +47,9 @@
   border: 1px solid var(--color-orange);
   border-radius: 1rem;
 }
+.login{
+  color: var(--color-orange);
+}
 .login, 
 .signup{
   width: 50%;

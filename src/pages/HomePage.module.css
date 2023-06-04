@@ -282,7 +282,15 @@
 .sideNavIcon {
   display: none;
 }
-@media (min-width: 793px) and (max-width: 1092px){
+@media (min-width: 993px) and (max-width: 1192px){
+    .navbar{
+    top: 30%;
+    left: -22%;
+    font-size: small;
+    gap: 15px;
+    }
+}
+@media (min-width: 800px) and (max-width: 992px){
   .homeDesp{
     margin-left: -50px;
   }
@@ -338,7 +346,7 @@
     left:70%;
   }
 } 
-@media (min-width: 200px) and (max-width: 792px) {
+@media (min-width: 200px) and (max-width: 799px) {
   .navbar{
     display: none;
   }

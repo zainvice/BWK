@@ -1,15 +1,17 @@
-import { useState, useCallback } from "react";
+import { useState, useCallback, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+import Header from "../components/Header";
 import Check from "../components/Check";
 import PortalPopup from "../components/PortalPopup";
 import TearmsAndConditions from "../components/TearmsAndConditions";
-import { useNavigate } from "react-router-dom";
+import contactStyles from "./ContactUs.module.css";
 import styles from "./SignUp.module.css";
-import Header from "../components/Header";
+
 const SignUp = () => {
+  const navigate = useNavigate();
   const [isCheckOpen, setCheckOpen] = useState(false);
   const [isTearmsAndConditionsOpen, setTearmsAndConditionsOpen] =
     useState(false);
-  const navigate = useNavigate();
 
   const openCheck = useCallback(() => {
     setCheckOpen(true);
@@ -38,66 +40,145 @@ const SignUp = () => {
   return (
     <>
       <div className={styles.signUp}>
-        <img className={styles.image3Icon} alt="" src="/image-31@2x.png" />
         <Header />
-        <div className={styles.signupForm}>
-          <div className={styles.signupFormChild} />
-          <div className={styles.eg0712345678}>{`e.g 0712345678 `}</div>
-          <div className={styles.maximumAmountTo}>
-            Maximum amount to be used in a single bet e.g. 2000
+        <div
+          className={contactStyles.formContainer + " " + styles.formContainer}
+        >
+          <div className={styles.signupContainer}>
+            <div className={styles.signupleft}>
+              <form className={styles.form}>
+                <h1>Signup</h1>
+
+                <div className={contactStyles.inputContainer}>
+                  <label className={contactStyles.inputlabel}>
+                    <input
+                      className={contactStyles.input + " " + styles.signupInput}
+                      type="text"
+                      placeholder="Your Name"
+                    />
+                  </label>
+                </div>
+
+                <div className={styles.inputGroup}>
+                  <div
+                    className={
+                      contactStyles.inputContainer + " " + styles.groupInput
+                    }
+                  >
+                    <label className={contactStyles.inputlabel}>
+                      <input
+                        className={
+                          contactStyles.input + " " + styles.signupInput
+                        }
+                        type="text"
+                        placeholder="ُYour Phone No"
+                      />
+                      <span className={styles.inputInfo}>eg. 0712345678</span>
+                    </label>
+                  </div>
+
+                  <div
+                    className={
+                      contactStyles.inputContainer + " " + styles.groupInput
+                    }
+                  >
+                    <label className={contactStyles.inputlabel}>
+                      <input
+                        className={
+                          contactStyles.input + " " + styles.signupInput
+                        }
+                        type="email"
+                        placeholder="ُYour Email"
+                      />
+                      <span className={styles.inputInfo}>
+                        eg. yourmail@mail.com
+                      </span>
+                    </label>
+                  </div>
+                </div>
+
+                <div className={styles.inputGroup}>
+                  <div
+                    className={
+                      contactStyles.inputContainer + " " + styles.groupInput
+                    }
+                  >
+                    <label className={contactStyles.inputlabel}>
+                      <select
+                        className={
+                          contactStyles.input + " " + styles.signupInput
+                        }
+                        type="text"
+                      >
+                        <option>Your Betting Plateform</option>
+                      </select>
+                    </label>
+                  </div>
+
+                  <div
+                    className={
+                      contactStyles.inputContainer + " " + styles.groupInput
+                    }
+                  >
+                    <label className={contactStyles.inputlabel}>
+                      <input
+                        className={
+                          contactStyles.input + " " + styles.signupInput
+                        }
+                        type="password"
+                        placeholder="ُYour Bet Password"
+                      />
+                    </label>
+                  </div>
+                </div>
+
+                <div className={contactStyles.inputContainer}>
+                  <label className={contactStyles.inputlabel}>
+                    <input
+                      className={contactStyles.input + " " + styles.signupInput}
+                      type="text"
+                      placeholder="ُMaximum Stake"
+                    />
+                    <span className={styles.inputInfo}>
+                      Minimum amount to be used in a single bet eg. 2000
+                    </span>
+                  </label>
+                </div>
+
+                <div className={styles.termsconditions}>
+                  <label>
+                    <input type="checkbox" />I have read the&nbsp;
+                  </label>
+                  <button>Terms and Conditions.</button>
+                </div>
+
+                <div className={contactStyles.buttonContainer}>
+                  <button className={contactStyles.submit}>SIGNUP</button>
+                </div>
+              </form>
+            </div>
+            <div className={styles.signupright}>
+              <div>
+                <h1 className={styles.whyChooseUs}>
+                  Why <span className={styles.textOrange}>Choose Us?</span>
+                </h1>
+                <p>
+                  We assist you in optimizing your betting. <br></br>
+                  Utilizing your experitse in analysis, we evaluate matches and
+                  execute wagers on your behalf, thereby enhancing your odds of
+                  success. <br></br>
+                  Join us and minimize your perpetual losses.
+                </p>
+                <p className={styles.haveAccount}>
+                  Aleady have an{" "}
+                  <span className={styles.textOrange}>Account?</span>
+                  &nbsp; &nbsp;{" "}
+                  <button className={contactStyles.submit}>LOGIN</button>
+                </p>
+              </div>
+            </div>
           </div>
-          <div className={styles.egYourmailmailcom}>e.g yourmail@mail.com</div>
-          <b className={styles.signUp1}>Sign Up</b>
-          <div className={styles.signupFormItem} />
-          <div className={styles.signupFormInner} />
-          <div className={styles.rectangleDiv} />
-          <div className={styles.signupFormChild1} />
-          <div className={styles.signupFormChild2} />
-          <div className={styles.signupFormChild3} />
-          <div className={styles.signUp2} onClick={onSIgnUpContainerClick}>
-            <div className={styles.signUpChild} />
-            <b className={styles.signup}>SIGNUP</b>
-          </div>
-          <div className={styles.signUp3} onClick={onSIgnUpContainer1Click}>
-            <div className={styles.signUpItem} />
-            <b className={styles.logIn}>LOG IN</b>
-          </div>
-          <div className={styles.signupFormChild4} onClick={openCheck} />
-          <div
-            className={styles.iHaveReadContainer}
-            onClick={openTearmsAndConditions}
-          >
-            <span>{`I have read the `}</span>
-            <span className={styles.termsOfService}>Terms of Service</span>
-          </div>
-          <b className={styles.alreadyHaveAnContainer}>
-            <span>{`Already have an `}</span>
-            <span className={styles.termsOfService}>Account?</span>
-          </b>
-          <div className={styles.yourName}>Your Name</div>
-          <div className={styles.yourPhoneNo}>Your Phone No</div>
-          <div className={styles.yourBettingPlatform}>
-            Your Betting Platform
-          </div>
-          <img className={styles.vectorIcon} alt="" src="/vector-11.svg" />
-          <div className={styles.yourEmail}>Your Email</div>
-          <div className={styles.yourBetPassword}>Your Bet Password</div>
-          <div className={styles.maximumStake}>Maximum Stake</div>
         </div>
-        <div className={styles.weAssistYouContainer}>
-          <p className={styles.weAssistYou}>
-            We assist you in optimizing your betting returns.Utilizing our
-            expertise in analysis, we evaluate matches and execute wagers on
-            your behalf, thereby enhancing your odds of success.
-          </p>
-          <p className={styles.weAssistYou}>
-            Join us and minimize your perpetual losses.
-          </p>
-        </div>
-        <b className={styles.whyChooseUsContainer}>
-          <span>{`Why `}</span>
-          <span className={styles.chooseUs}>Choose Us?</span>
-        </b>
       </div>
       {isCheckOpen && (
         <PortalPopup

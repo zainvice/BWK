@@ -1,11 +1,10 @@
 import { useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./ContactUs.module.css";
 import Header from "../components/Header";
-import { useState } from "react";
+import styles from "./ContactUs.module.css";
 const ContactUs = () => {
   const navigate = useNavigate();
-
+  
   const onLOGINContainerClick = useCallback(() => {
     navigate("/");
   }, [navigate]);

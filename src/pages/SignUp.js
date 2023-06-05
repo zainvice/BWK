@@ -1,7 +1,6 @@
 import { useState, useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
-import Check from "../components/Check";
 import PortalPopup from "../components/PortalPopup";
 import TearmsAndConditions from "../components/TearmsAndConditions";
 import contactStyles from "./ContactUs.module.css";
@@ -12,11 +11,13 @@ const SignUp = () => {
   const [isTearmsAndConditionsOpen, setTearmsAndConditionsOpen] =
     useState(false);
 
-  const openTearmsAndConditions = useCallback(() => {
+  const openTearmsAndConditions = useCallback((e) => {
+    e.preventDefault();
     setTearmsAndConditionsOpen(true);
   }, []);
 
-  const closeTearmsAndConditions = useCallback(() => {
+  const closeTearmsAndConditions = useCallback((e) => {
+    e.preventDefault();
     setTearmsAndConditionsOpen(false);
   }, []);
 
@@ -136,11 +137,18 @@ const SignUp = () => {
                   <label>
                     <input type="checkbox" />I have read the&nbsp;
                   </label>
-                  <button onClick={openTearmsAndConditions}>Terms and Conditions.</button>
+                  <button onClick={openTearmsAndConditions}>
+                    Terms and Conditions.
+                  </button>
                 </div>
 
                 <div className={contactStyles.buttonContainer}>
-                  <button className={contactStyles.submit} onClick={onSignUpClick}>SIGNUP</button>
+                  <button
+                    className={contactStyles.submit}
+                    onClick={onSignUpClick}
+                  >
+                    SIGNUP
+                  </button>
                 </div>
               </form>
             </div>
@@ -160,14 +168,19 @@ const SignUp = () => {
                   Aleady have an{" "}
                   <span className={styles.textOrange}>Account?</span>
                   &nbsp; &nbsp;{" "}
-                  <button className={contactStyles.submit}>LOGIN</button>
+                  <button
+                    className={contactStyles.submit}
+                    onClick={() => navigate("/login")}
+                  >
+                    LOGIN
+                  </button>
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      
+
       {isTearmsAndConditionsOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"

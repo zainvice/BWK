@@ -61,10 +61,10 @@ div.groupInput{
   width: 50%;
 }
 
-.termsconditions{
+.termsconditions,
+.termsconditions label{
   display: flex;
   align-items: center;
-  font-size: var(--font-size-xs);
 }
 
 .termsconditions button{
@@ -73,6 +73,11 @@ div.groupInput{
   font-family: var(--font-poppins);
   background-color: transparent;
   color: var(--color-orange);
+}
+
+.termsconditions label,
+.termsconditions button{
+  font-size: var(--font-size-xs);
 }
 
 .signupright{

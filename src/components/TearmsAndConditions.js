@@ -1,30 +1,18 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
 import styles from "./TearmsAndConditions.module.css";
 const TearmsAndConditions = ({ onClose }) => {
-  const navigate = useNavigate();
-
-  const onGroupContainerClick = useCallback(() => {
-    navigate("/signup");
-  }, [navigate]);
-
   return (
-    <div className={styles.tearmsAndConditions}>
-      <div className={styles.termsAndConditions} />
-      <div className={styles.vectorParent} onClick={onGroupContainerClick}>
-        <img className={styles.groupChild} alt="" src="/rectangle-341.svg" />
-        <b className={styles.accept}>Accept</b>
+    <div className={styles.termsAndConditions}>
+      <div className={styles.xContainer}>
+        <button className={styles.x} onClick={onClose}>
+          X
+        </button>
       </div>
-      <div className={styles.vectorGroup}>
-        <img className={styles.groupChild} alt="" src="/rectangle-351.svg" />
-        <b className={styles.accept}>Decline</b>
-      </div>
-      <b className={styles.ourTermsAndContainer}>
+
+      <h1 className={styles.ourTermsAndContainer}>
         <span>{`Our `}</span>
         <span className={styles.termsAndConditions1}>Terms and Conditions</span>
-      </b>
-      <b className={styles.x}>X</b>
-      <b className={styles.x1}>X</b>
+      </h1>
+      
       <div className={styles.pleaseReadTheseContainer}>
         <p
           className={styles.pleaseReadThese}
@@ -147,6 +135,15 @@ const TearmsAndConditions = ({ onClose }) => {
           questions or concerns regarding these Terms and Conditions, please
           contact us at [contact details]
         </p>
+      </div>
+
+      <div className={styles.vectorGroup}>
+        <div className={styles.vector} onClick={onClose}>
+          <button className={styles.accept}>Accept</button>
+        </div>
+        <div className={styles.vector}>
+          <button className={styles.decline}>Decline</button>
+        </div>
       </div>
     </div>
   );

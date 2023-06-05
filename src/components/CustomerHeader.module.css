@@ -1,11 +1,13 @@
 .header,
 .navbar,
-.loginsignup{
+.loginsignup,
+.loginSupport{
   display: flex;
   font-family: var(--font-poppins);
 }
 
 .header{
+  justify-content: space-between;
   align-items: center;
   padding: 1rem   10%;
 }
@@ -31,7 +33,6 @@
 .navbar{
   justify-content: center;
   gap: 1rem;
-  width: 70%;
   font-size: 1rem;
   cursor: pointer;
   color: var(--color-black) !important;
@@ -42,9 +43,15 @@
 
 /* Login Sign Up */
 
+.loginSupport{
+  gap: 1.5rem;
+  width: fit-content;
+  align-items: center;
+}
+
 .signup{
-  width: 10%;
   height: 2rem;
+  width: 120px;
   font-size: 0.8rem;
   margin-left: -80px;
   text-align: center;
@@ -62,16 +69,17 @@
   display: none;
   cursor: pointer;
 }
+
 .CSupport{
-    margin-left: -20%;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
+  margin-left: -20%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
     
 }
 @media screen and (max-width: 1440px) {
   
-    .header, 
+  .header, 
   .readyToTakeContainer{
     padding: 1rem 5%
   }

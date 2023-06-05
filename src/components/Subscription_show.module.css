@@ -167,9 +167,10 @@
     .subscriptionsContainer{
       font-size: smaller;
       width: 90%;
-      height: auto;
+
     }
     .subscriptionOptions{
+      height: auto;
       padding: 1rem 0;
       background: url("/public/image-5@2x.png");
       border-radius: 50px;

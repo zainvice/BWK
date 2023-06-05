@@ -1,91 +1,75 @@
 .groupChild,
 .termsAndConditions {
-  position: absolute;
-  left: 0;
   border-radius: var(--br-21xl);
-}
-.termsAndConditions {
-  top: 58px;
-  background-color: var(--color-whitesmoke-300);
-  border: 5px solid var(--color-orange);
-  box-sizing: border-box;
-  width: 1192px;
-  height: 1229px;
-}
-.groupChild {
-  top: 0;
-  width: 141px;
-  height: 48px;
-}
-.accept {
-  position: absolute;
-  top: 8.73px;
-  left: 35.43px;
-  display: inline-block;
-  width: 70.13px;
-  height: 30.55px;
-}
-.vectorGroup,
-.vectorParent {
-  position: absolute;
-  top: 1157px;
-  width: 141px;
-  height: 48px;
-  font-size: var(--font-size-lg);
-}
-.vectorParent {
-  left: 484px;
-  cursor: pointer;
-  color: var(--color-white);
-}
-.vectorGroup {
-  left: 664px;
-  color: var(--color-black);
 }
 .termsAndConditions1 {
   color: var(--color-orange);
 }
-.ourTermsAndContainer,
-.x,
-.x1 {
-  position: absolute;
-  top: 129px;
-  left: 387px;
-}
-.x,
-.x1 {
-  top: 71px;
-  left: 1145px;
-}
-.x1 {
-  top: 82px;
-  left: 1192px;
-}
-.pleaseReadThese {
-  margin: 0;
+.ourTermsAndContainer{
+  text-align: center;
+  font-size: var(--font-size-14xl);
 }
 .pleaseReadTheseContainer {
-  position: absolute;
-  top: 225px;
-  left: 135px;
   font-size: var(--font-size-sm);
   color: var(--color-black);
   white-space: pre-wrap;
   display: inline-block;
-  width: 922px;
-  height: 927px;
+  width: 100%;
+  height: auto;
 }
-.tearmsAndConditions {
-  position: relative;
+
+.vectorGroup{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.accept,
+.decline{
+  padding: 0.6rem 1.5rem;
+  font-weight: bolder;
+  border: 2px solid var(--color-orange);
+  border-radius: 1.5rem;
+  color: var(--color-white);
+  font-size: var(--font-size-sm);
+  background: var(--color-orange);
+  font-family: var(--font-poppins);
+  cursor: pointer;
+}
+
+.decline{
+  background: none;
+  color: var(--color-black);
+  border: 2px solid var(--color-black);
+}
+
+.xContainer{
+  text-align: right;
+  padding: 0 1rem;
+}
+
+.x{
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: var(--font-size-lgi);
+  font-weight: bold;
+}
+
+.termsAndConditions {
   background-color: var(--color-gray-400);
-  width: 1192px;
-  height: 1362px;
-  overflow-x: auto;
-  max-width: 100%;
-  max-height: 100%;
-  overflow: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow-y: auto;
   text-align: left;
+  background-color: var(--color-whitesmoke-300);
+  border: 4px solid var(--color-orange);
+  box-sizing: border-box;
+  width: 80%;
   font-size: var(--font-size-12xl);
   color: var(--color-gray-100);
   font-family: var(--font-poppins);
+  padding: 1.5rem;
 }

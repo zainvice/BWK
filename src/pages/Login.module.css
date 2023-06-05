@@ -20,8 +20,12 @@
 .loginlink1{
   cursor: pointer;
   color: var(--color-orange);
-  
 }
 .loginlink1:hover{
   font-weight: 550;
+}
+@media screen and (max-width: 400px) {
+  .keepSignedIn{
+    flex-flow: column nowrap;
+  }
 }

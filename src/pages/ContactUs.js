@@ -5,45 +5,50 @@ import Header from "../components/Header";
 import { useState } from "react";
 const ContactUs = () => {
   const navigate = useNavigate();
-  const [innerWidth, setInnerWidth] = useState();
-
-  useEffect(() => {
-    window.addEventListener("resize", () => {
-      setInnerWidth(() => window.innerWidth);
-    })
-  }, [])
 
   const onLOGINContainerClick = useCallback(() => {
     navigate("/");
-  }, [navigate]);
-
-  const onSupportTextClick = useCallback(() => {
-    navigate("/sms-betting");
   }, [navigate]);
 
   return (
     <div className={styles.contactUs}>
       <Header />
       <div className={styles.formContainer}>
-        <img src={innerWidth > 900 ? "/bulb.svg" :  "/image-3@2x.png"} className={styles.formImg} />
+        <img
+          src={"/bulb.svg"}
+          className={styles.formImg}
+        />
         <form className={styles.form}>
           <h1>Support</h1>
           <div className={styles.inputContainer}>
             <label className={styles.inputlabel}>
               Phone Number
-              <input className={styles.input} placeholder="eg 0712345678" />
+              <input
+                className={styles.input}
+                type="text"
+                placeholder="eg 0712345678"
+              />
             </label>
           </div>
           <div className={styles.inputContainer}>
             <label className={styles.inputlabel}>
               Email
-              <input className={styles.input} placeholder="Your Email" />
+              <input
+                className={styles.input}
+                type="text"
+                placeholder="Your Email"
+              />
             </label>
           </div>
           <div className={styles.inputContainer}>
             <label className={styles.inputlabel}>
               Concern
-              <textarea cols={10} rows={10} className={styles.input+" "+styles.inputArea} placeholder="State your complaints or concerns" />
+              <textarea
+                cols={10}
+                rows={10}
+                className={styles.input + " " + styles.inputArea}
+                placeholder="State your complaints or concerns"
+              />
             </label>
           </div>
           <p className={styles.complaintText}>

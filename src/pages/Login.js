@@ -1,12 +1,14 @@
 import { useState, useCallback } from "react";
-import Check from "../components/Check";
-import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
-import styles from "./Login.module.css";
+import Check from "../components/Check";
 import Header from "../components/Header";
+import loginStyles from "./Login.module.css";
+import styles from "./ContactUs.module.css";
+
 const Login = () => {
-  const [isCheckOpen, setCheckOpen] = useState(false);
   const navigate = useNavigate();
+  const [isCheckOpen, setCheckOpen] = useState(false);
+  const [innerWidth, setInnerWidth] = useState();
 
   const openCheck = useCallback(() => {
     setCheckOpen(true);
@@ -30,48 +32,54 @@ const Login = () => {
 
   return (
     <>
-      <div className={styles.login}>
-        <img className={styles.image3Icon} alt="" src="/image-32@2x.png" />
+      <div className={styles.contactUs}>
         <Header />
-        <div className={styles.loginForm}>
-          <div className={styles.loginFormChild} />
-          <div className={styles.loginFormItem} />
-          <div className={styles.loginFormInner} />
-          <div className={styles.phoneNumber}>Phone Number</div>
-          <div className={styles.password}>Password</div>
-          <b className={styles.logIn}>LOG IN</b>
-          <div className={styles.rectangleDiv} onClick={openCheck} />
-          <div className={styles.keepMeSigned}>Keep me signed in</div>
-          <div
-            className={styles.notRegisteredYetContainer}
-            onClick={onNotRegisteredYetClick}
-          >
-            <span>{`Not Registered yet? `}</span>
-            <span className={styles.registerNow}>{`Register Now! `}</span>
-          </div>
-          <div
-            className={styles.forgotPassword}
-            onClick={onForgotPasswordTextClick}
-          >
-            Forgot password?
-          </div>
-          <div className={styles.eg0712345678}>{`e.g 0712345678 `}</div>
-          <div className={styles.yourPassword}>Your Password</div>
-          <div className={styles.login1} onClick={onLOGINContainerClick}>
-            <div className={styles.loginChild} />
-            <b className={styles.logInTo}>LOG IN TO TIPS</b>
-          </div>
+        <div className={styles.formContainer}>
+          <img src={"/image-32@2x.png"} className={styles.formImg} />
+          <form className={styles.form + " " + loginStyles.loginform}>
+            <h1>Login</h1>
+            <div className={styles.inputContainer}>
+              <label className={styles.inputlabel}>
+                Phone Number
+                <input
+                  className={styles.input}
+                  type="text"
+                  placeholder="eg 0712345678"
+                />
+              </label>
+            </div>
+            <div className={styles.inputContainer}>
+              <label className={styles.inputlabel}>
+                Password
+                <input
+                  className={styles.input}
+                  type="password"
+                  placeholder="Your password"
+                />
+              </label>
+            </div>
+            <div
+              className={styles.inputContainer + " " + loginStyles.keepSignedIn}
+            >
+              <label>
+                <input type="checkbox" /> <span>Keep me signed in</span>
+              </label>
+              <a className={loginStyles.loginlink1}>forgot password?</a>
+            </div>
+            <div className={styles.buttonContainer}>
+              <button className={styles.submit}>LOGIN TO TIPS</button>
+            </div>
+            <div
+              className={styles.inputContainer + " " + loginStyles.registerNow}
+            >
+              <span>
+                Not registered yet?{" "}
+                <a className={loginStyles.loginlink1}>Register Now</a>
+              </span>
+            </div>
+          </form>
         </div>
       </div>
-      {isCheckOpen && (
-        <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Centered"
-          onOutsideClick={closeCheck}
-        >
-          <Check onClose={closeCheck} />
-        </PortalPopup>
-      )}
     </>
   );
 };

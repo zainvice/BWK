@@ -208,7 +208,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/requestrecieved":
+      case "/request-recieved":
           title = "";
           metaDescription = "";
           break;
@@ -238,7 +238,9 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<RequestRecieved />} />
+      <Route path="/" element={<HomePage />} />
+      <Route path="/homepage" element={<HomePage />} />
+      <Route path="/request-recieved" element={<RequestRecieved />} />
       <Route path="/customer-supportpage" element={<CustomerSupportPage />} />
       <Route
         path="/customer-livescorepage"
@@ -260,7 +262,7 @@ function App() {
       <Route path="/admin-homepage" element={<AdminHomePage />} />
       <Route path="/customer-homepage" element={<CustomerHomePage />} />
       <Route path="/subscriptions" element={<Subscriptions />} />
-      <Route path="/homepage" element={<HomePage />} />
+      
       <Route path="/confirmphone" element={<ConfirmPhone />} />
       <Route path="/custcontactphone" element={<CustContactPhone />} />
       <Route path="/custlivescorephone" element={<CustLivescorePhone />} />
@@ -272,7 +274,7 @@ function App() {
         element={<SuccesfullyRegistered />}
       />
       <Route path="/forgotpassword" element={<ForgotPassword />} />
-      <Route path="/requestrecieved" element={<RequestRecieved />} />
+     
       <Route path="/signupphone" element={<SignupPhone />} />
       <Route path="/loginphone" element={<LoginPhone />} />
       <Route path="/contactphone" element={<ContactPhone />} />

@@ -48,6 +48,9 @@
   border: 1px solid var(--color-orange);
   border-radius: 1rem;
 }
+.loginsignup:hover{
+  border:1px solid #e68a00;
+}
 .login{
   color: var(--color-orange);
 }
@@ -65,7 +68,9 @@
   background: var(--color-orange);
   border-radius: 1rem;
 }
-
+.selectedLogin:hover{
+  background-color: #f59301;
+}
 /* Side Navigation */
 .sideNav{
   display: none;

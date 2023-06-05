@@ -1,6 +1,6 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./CustomerSUBPage.module.css";
+import styles from "./Subscriptions.module.css";
 import CHeader from "../components/CustomerHeader";
 const CustomerSUBPage = () => {
   const navigate = useNavigate();

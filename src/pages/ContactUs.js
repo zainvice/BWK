@@ -4,9 +4,9 @@ import Header from "../components/Header";
 import styles from "./ContactUs.module.css";
 const ContactUs = () => {
   const navigate = useNavigate();
-  
-  const onLOGINContainerClick = useCallback(() => {
-    navigate("/");
+
+  const onSupportClick = useCallback(() => {
+    navigate("/request-recieved");
   }, [navigate]);
 
   return (
@@ -53,8 +53,8 @@ const ContactUs = () => {
           <p className={styles.complaintText}>
             Submit your complaints or concerns, we'll get to you shortly!
           </p>
-          <div className={styles.buttonContainer}>
-            <button className={styles.submit}>SUBMIT</button>
+          <div className={styles.buttonContainer} onclick={onSupportClick}>
+            <button className={styles.submit } onClick={onSupportClick}>SUBMIT</button>
           </div>
         </form>
       </div>

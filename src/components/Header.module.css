@@ -3,6 +3,7 @@
 .loginsignup{
   display: flex;
   font-family: var(--font-poppins);
+ 
 }
 
 .header{
@@ -47,10 +48,21 @@
   align-items: center;
   border: 1px solid var(--color-orange);
   border-radius: 1rem;
+  font-weight: 600;
+}
+.loginsignup:hover{
+  border:1px solid #e68a00;
+  
 }
 .login{
   color: var(--color-orange);
 }
+.login:hover{
+  background-color: var(--color-orange);
+  border-radius: 40px;
+  color: white;
+}
+
 .login, 
 .signup{
   width: 50%;
@@ -61,11 +73,17 @@
   cursor: pointer;
 }
 .selectedLogin{
-  color: var(--color-white);
-  background: var(--color-orange);
+  color: var(--color-orange);
+  
   border-radius: 1rem;
+  background-color: var(--color);
 }
-
+.selectedLogin:hover{
+  
+  background: var(--color-orange);
+  border-radius: 40px;
+  color: var(--color-white);
+}
 /* Side Navigation */
 .sideNav{
   display: none;

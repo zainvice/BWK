@@ -1,22 +1,23 @@
 
-import styles from "./CustomerLiveScorePage.module.css";
+import styles from "./LiveScore.module.css";
 import CHeader from "../components/CustomerHeader";
 const CustomerLiveScorePage = () => {
   
 
   return (
-    <div className={styles.customerLivescorePage}>
+    <>
       <CHeader/>
-      
+      <div className={styles.liveScore}>
+        <b className={styles.liveScores}>
+          Live Scores
+        </b>
+        <div className={styles.liveScoreChild}>
+          <b className={styles.theApiWill}>THE API WILL DISPLAY SCORE HERE</b>
+        </div>
+      </div>
      
-      <b className={styles.liveScore1} >
-        Live Score
-      </b>
-      <div className={styles.customerLivescorePageChild} />
-      <b className={styles.liveScoreWill} >
-        Live Score will show here
-      </b>
-    </div>
+      
+      </>
   );
 };
 

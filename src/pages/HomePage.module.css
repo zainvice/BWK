@@ -111,6 +111,10 @@
   height: 41px;
   font-size: var(--font-size-lg);
   color: var(--color-white);
+  cursor:pointer;
+}
+.vectorGroup:hover{
+  background-color: #e68a00;
 }
 .welcomeToOur {
   margin: 0;

@@ -73,15 +73,16 @@
   cursor: pointer;
 }
 .selectedLogin{
-  color: var(--color-white);
-  background: var(--color-orange);
+  color: var(--color-orange);
+  
   border-radius: 1rem;
+  background-color: var(--color);
 }
 .selectedLogin:hover{
   
-  background-color: var(--color);
+  background: var(--color-orange);
   border-radius: 40px;
-  color: var(--color-orange);
+  color: var(--color-white);
 }
 /* Side Navigation */
 .sideNav{

@@ -157,7 +157,7 @@
     .subscriptionsContainer{
         width: 100%;
         height: 70%;
-        margin: 0px 100px;
+        margin: 30px 15%;
     }
     .image{
         width: 100%;
@@ -173,11 +173,27 @@
         width: 90%;
         height: 70%;
         margin-left: 5%;
-        margin-bottom: 20%;
+        margin-top: 10%;
+
     }
     .subscriptionOptions{
+      margin-top: 0%;
       border: 5px solid var(--color-orange);
       border-radius: 50px;
+    }
+    .packageTitle{
+       margin-left: 5%;
+    }
+    .packageFeatures{
+      margin: 5% 0%;
+       margin-left: 20%;
+       
+    }
+    .packagePrices{
+       margin-top: 21%;
+    }
+    .packagePricesV{
+      margin-top: -27%;
     }
     .image{
       display: none;

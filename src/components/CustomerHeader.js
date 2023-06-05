@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react'
 import { useNavigate } from "react-router-dom";
 import PortalPopup from "../components/PortalPopup";
-import SideBar from "../components/SideBar";
+import SideBar from "../components/CustSideBar";
 import styles from './CHeader.module.css'
 
 

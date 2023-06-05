@@ -42,6 +42,7 @@ import SubcriptionPhone from "./pages/SubcriptionPhone";
 import HomePhone from "./pages/HomePhone";
 import SignUp from "./pages/SignUp";
 import Login from "./pages/Login";
+
 import { useEffect } from "react";
 
 function App() {
@@ -207,6 +208,10 @@ function App() {
         title = "";
         metaDescription = "";
         break;
+      case "/requestrecieved":
+          title = "";
+          metaDescription = "";
+          break;
       case "/signup":
         title = "";
         metaDescription = "";
@@ -267,6 +272,7 @@ function App() {
         element={<SuccesfullyRegistered />}
       />
       <Route path="/forgotpassword" element={<ForgotPassword />} />
+      <Route path="/requestrecieved" element={<RequestRecieved />} />
       <Route path="/signupphone" element={<SignupPhone />} />
       <Route path="/loginphone" element={<LoginPhone />} />
       <Route path="/contactphone" element={<ContactPhone />} />

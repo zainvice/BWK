@@ -64,17 +64,17 @@ const Login = () => {
               <label>
                 <input type="checkbox" /> <span>Keep me signed in</span>
               </label>
-              <a className={loginStyles.loginlink1}>forgot password?</a>
+              <a className={loginStyles.loginlink1} onClick={onForgotPasswordTextClick}>Forgot password?</a>
             </div>
             <div className={styles.buttonContainer}>
-              <button className={styles.submit}>LOGIN TO TIPS</button>
+              <button className={styles.submit} onClick={onLOGINContainerClick}>LOGIN TO TIPS</button>
             </div>
             <div
-              className={styles.inputContainer + " " + loginStyles.registerNow}
+              className={styles.inputContainer + " " + loginStyles.registerNow} 
             >
               <span>
                 Not registered yet?{" "}
-                <a className={loginStyles.loginlink1}>Register Now</a>
+                <a className={loginStyles.loginlink1} onClick={onNotRegisteredYetClick}>Register Now</a>
               </span>
             </div>
           </form>

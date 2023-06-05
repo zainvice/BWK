@@ -10,6 +10,7 @@
 .keepSignedIn{
   justify-content: space-between;
   cursor: pointer;
+  
 }
 
 .registerNow{
@@ -17,5 +18,10 @@
 }
 
 .loginlink1{
+  cursor: pointer;
   color: var(--color-orange);
+  
+}
+.loginlink1:hover{
+  font-weight: 550;
 }

@@ -6,8 +6,8 @@ import { useState } from "react";
 const ContactUs = () => {
   const navigate = useNavigate();
 
-  const onLOGINContainerClick = useCallback(() => {
-    navigate("/");
+  const onSupportClick = useCallback(() => {
+    navigate("/requestrecieved");
   }, [navigate]);
 
   return (
@@ -55,7 +55,7 @@ const ContactUs = () => {
             Submit your complaints or concerns, we'll get to you shortly!
           </p>
           <div className={styles.buttonContainer}>
-            <button className={styles.submit}>SUBMIT</button>
+            <button className={styles.submit }onclick={onSupportClick}>SUBMIT</button>
           </div>
         </form>
       </div>

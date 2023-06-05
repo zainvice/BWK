@@ -55,7 +55,7 @@ const SideBar = ({ onClose }) => {
           Subscriptions
         </div>
         <div className={styles.smsBetting} onClick={onSMSBettingTextClick}>
-          SMS Betting
+          SMS Bettings
         </div>
         <div className={styles.webBetting} onClick={onWebBettingTextClick}>
           Web Betting
@@ -66,6 +66,8 @@ const SideBar = ({ onClose }) => {
         <div className={styles.contactUs} onClick={onContactUsTextClick}>
           Contact Us
         </div>
+        <div className={styles.bwk}>BWK</div>
+        <div className={styles.betWiseKenya}>Bet Wise Kenya</div>
       </div>
     </div>
   );

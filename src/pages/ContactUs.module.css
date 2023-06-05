@@ -107,6 +107,11 @@
 @media screen and (max-width: 920px) {
   .form{
     width: 80%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .form{
     padding: 2rem 1rem;
   }
 }

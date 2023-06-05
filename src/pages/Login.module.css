@@ -1,147 +1,21 @@
-.image3Icon {
-  position: absolute;
-  top: 177px;
-  left: 108px;
-  border-radius: var(--br-21xl);
-  width: 1259px;
-  height: 748px;
-  object-fit: cover;
+.loginform{
+  gap: 1rem !important;
 }
 
-.loginFormChild {
-  position: absolute;
-  top: 28px;
-  left: 85px;
-  width: 1009px;
-  height: 68px;
+.keepSignedIn,
+.registerNow{
+  display: flex;
+  font-size: var(--font-size-sm);
 }
-.loginFormChild {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-54xl);
-  background-color: var(--color-gray-300);
-  width: 590px;
-  height: 610px;
-}
-.loginFormInner,
-.loginFormItem {
-  position: absolute;
-  top: 176px;
-  left: 51px;
-  border-radius: var(--br-3xs);
-  background-color: var(--color-gainsboro-300);
-  border: 1px solid var(--color-orange);
-  box-sizing: border-box;
-  width: 500px;
-  height: 50px;
-}
-.loginFormInner {
-  top: 299px;
-  left: 52px;
-  background-color: var(--color-gainsboro-200);
-}
-.logIn,
-.password,
-.phoneNumber {
-  position: absolute;
-  top: 139px;
-  left: 51px;
-}
-.logIn,
-.password {
-  top: 265px;
-  left: 47px;
-}
-.logIn {
-  top: 27px;
-  left: 227px;
-  font-size: var(--font-size-13xl);
-  color: var(--color-orange);
-}
-.rectangleDiv {
-  position: absolute;
-  top: 401px;
-  left: 58px;
-  background-color: var(--color-gainsboro-200);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 20px;
-  height: 20px;
+.keepSignedIn{
+  justify-content: space-between;
   cursor: pointer;
 }
-.keepMeSigned {
-  position: absolute;
-  top: 399px;
-  left: 91px;
-  font-size: var(--font-size-base);
+
+.registerNow{
+  justify-content: center;
 }
-.registerNow {
+
+.loginlink1{
   color: var(--color-orange);
-}
-.forgotPassword,
-.notRegisteredYetContainer {
-  position: absolute;
-  top: 567px;
-  left: 159px;
-  font-size: var(--font-size-base);
-  cursor: pointer;
-}
-.forgotPassword {
-  top: 401px;
-  left: 413px;
-  color: var(--color-orange);
-}
-.eg0712345678,
-.yourPassword {
-  position: absolute;
-  top: 186px;
-  left: 73px;
-  font-size: var(--font-size-lgi);
-  color: var(--color-darkgray);
-}
-.yourPassword {
-  top: 309px;
-}
-.loginChild {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-11xl);
-  background-color: var(--color-orange);
-  width: 195px;
-  height: 60px;
-}
-.logInTo,
-.login1 {
-  position: absolute;
-  top: 16px;
-  left: 31px;
-}
-.login1 {
-  top: 476px;
-  left: 197px;
-  width: 195px;
-  height: 60px;
-  cursor: pointer;
-  color: var(--color-white);
-}
-.loginForm {
-  position: absolute;
-  top: 246px;
-  left: 433px;
-  width: 590px;
-  height: 610px;
-  font-size: var(--font-size-lg);
-  color: var(--color-black);
-}
-.login {
-  position: relative;
-  background-color: var(--color-whitesmoke-100);
-  width: 100%;
-  height: 1024px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-18xl);
-  color: var(--color-orange);
-  font-family: var(--font-poppins);
 }

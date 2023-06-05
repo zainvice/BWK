@@ -1,11 +1,11 @@
 .smsBetting2,
-.smsTipsDetails{
+.smsTipsDetails {
   font-size: xx-large;
   color: var(--color-orange);
 }
 
 .betOnTheContainer,
-.smsoffer{
+.smsoffer {
   position: relative;
   padding: 1rem 15%;
   width: 100%;
@@ -14,13 +14,13 @@
   font-family: var(--font-poppins);
 }
 
-.smsofferChild{
+.smsofferChild {
   width: 100%;
   min-height: 400px;
   max-height: 500px;
 }
 
-.smsTipsDetailsContainer{
+.smsTipsDetailsContainer {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -29,12 +29,11 @@
   color: var(--color-white);
 }
 
-
-.vectorParent{
+.vectorParent {
   margin-top: 2rem;
   text-align: center;
 }
-.joinNow{
+.joinNow {
   width: 160px;
   height: 45px;
   margin: 0 auto;
@@ -50,14 +49,14 @@
 
 @media screen and (max-width: 1440px) {
   .betOnTheContainer,
-  .smsoffer{
-    padding: 1rem 10%
+  .smsoffer {
+    padding: 1rem 10%;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .betOnTheContainer,
-  .smsoffer{
+  .smsoffer {
     padding: 1rem;
   }
 }

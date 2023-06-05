@@ -9,17 +9,8 @@ import styles from "./SignUp.module.css";
 
 const SignUp = () => {
   const navigate = useNavigate();
-  const [isCheckOpen, setCheckOpen] = useState(false);
   const [isTearmsAndConditionsOpen, setTearmsAndConditionsOpen] =
     useState(false);
-
-  const openCheck = useCallback(() => {
-    setCheckOpen(true);
-  }, []);
-
-  const closeCheck = useCallback(() => {
-    setCheckOpen(false);
-  }, []);
 
   const openTearmsAndConditions = useCallback(() => {
     setTearmsAndConditionsOpen(true);
@@ -29,12 +20,8 @@ const SignUp = () => {
     setTearmsAndConditionsOpen(false);
   }, []);
 
-  const onSIgnUpContainerClick = useCallback(() => {
+  const onSignUpClick = useCallback(() => {
     navigate("/succesfully-registered");
-  }, [navigate]);
-
-  const onSIgnUpContainer1Click = useCallback(() => {
-    navigate("/login");
   }, [navigate]);
 
   return (
@@ -149,11 +136,11 @@ const SignUp = () => {
                   <label>
                     <input type="checkbox" />I have read the&nbsp;
                   </label>
-                  <button>Terms and Conditions.</button>
+                  <button onClick={openTearmsAndConditions}>Terms and Conditions.</button>
                 </div>
 
                 <div className={contactStyles.buttonContainer}>
-                  <button className={contactStyles.submit}>SIGNUP</button>
+                  <button className={contactStyles.submit} onClick={onSignUpClick}>SIGNUP</button>
                 </div>
               </form>
             </div>
@@ -180,15 +167,7 @@ const SignUp = () => {
           </div>
         </div>
       </div>
-      {isCheckOpen && (
-        <PortalPopup
-          overlayColor="rgba(113, 113, 113, 0.3)"
-          placement="Centered"
-          onOutsideClick={closeCheck}
-        >
-          <Check onClose={closeCheck} />
-        </PortalPopup>
-      )}
+      
       {isTearmsAndConditionsOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"

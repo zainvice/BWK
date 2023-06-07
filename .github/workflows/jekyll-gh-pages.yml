@@ -26,7 +26,7 @@ jobs:
 
       - name: Build with Jekyll
         run: |
-          bundle exec jekyll build --destination _github/workflows
+          bundle exec jekyll build --destination .github/workflows
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

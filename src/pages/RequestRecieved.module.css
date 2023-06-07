@@ -1,70 +1,7 @@
-
-.image3Icon {
-  position: absolute;
-  top: 28px;
-  left: 85px;
-  width: 1271px;
-  height: 68px;
-}
-.image3Icon {
-  top: 217px;
-  left: 97px;
-  border-radius: var(--br-21xl);
-  width: 1259px;
-  height: 748px;
-  object-fit: cover;
-}
-.loginFormChild {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-54xl);
-  background-color: var(--color-gray-300);
-  width: 590px;
-  height: 384px;
-}
-.support {
-  position: absolute;
-  top: 32px;
-  left: 200px;
-  cursor: pointer;
-}
-.loginForm {
-  position: absolute;
-  top: 359px;
-  left: 421px;
-  width: 590px;
-  height: 384px;
-  font-size: var(--font-size-29xl);
-}
-.weHave {
-  color: var(--color-gray-200);
-}
-.received {
-  color: var(--color-orange);
-}
-.weHaveReceivedYouRequest {
-  margin: 0;
-}
-.weHaveReceivedContainer {
-  position: absolute;
-  top: 525px;
-  left: 494px;
-  font-size: var(--font-size-6xl);
+.weRecievedMsg{
   text-align: center;
-  display: inline-block;
-  width: 466px;
-  height: 125px;
-  color: var(--color-gray-200);
 }
-.requestRecieved {
-  position: relative;
-  background-color: var(--color-whitesmoke-100);
-  width: 100%;
-  height: 1024px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-18xl);
+
+.weRecievedMsg span{
   color: var(--color-orange);
-  font-family: var(--font-poppins);
 }

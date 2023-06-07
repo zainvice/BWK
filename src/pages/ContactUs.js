@@ -53,7 +53,7 @@ const ContactUs = () => {
           <p className={styles.complaintText}>
             Submit your complaints or concerns, we'll get to you shortly!
           </p>
-          <div className={styles.buttonContainer} onclick={onSupportClick}>
+          <div className={styles.buttonContainer} >
             <button className={styles.submit } onClick={onSupportClick}>SUBMIT</button>
           </div>
         </form>

@@ -8,7 +8,7 @@ const CustomerSupportPage = () => {
   const navigate = useNavigate();
 
   const onLOGINContainerClick = useCallback(() => {
-    navigate("/cust-request-recieved");
+    navigate("/request-recieved");
   }, [navigate]);
 
   return (
@@ -48,7 +48,12 @@ const CustomerSupportPage = () => {
           </p>
 
           <div className={contactStyles.buttonContainer}>
-            <button className={contactStyles.submit}>SUBMIT</button>
+            <button
+              className={contactStyles.submit}
+              onClick={onLOGINContainerClick}
+            >
+              SUBMIT
+            </button>
           </div>
 
           <p className={contactStyles.complaintText + " " + styles.orReachUs}>

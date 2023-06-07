@@ -17,11 +17,12 @@ const RequestRecieved = () => {
         <Header />
         <div className={contactStyles.formContainer}>
           <img className={contactStyles.formImg} alt="" src="/bulb.svg" />
-          <div className={contactStyles.form}>
+          <div className={contactStyles.form + " " + styles.form}>
             <h1>Support</h1>
             <p className={styles.weRecievedMsg}>
-              {"We have "}<span>received</span> you request, we’ll reach out soon! Feel free
-              to browse our site till then!
+              {"We have "}
+              <span>received</span> you request, we’ll reach out soon! <br />
+              Feel free to browse our site till then!
             </p>
           </div>
         </div>

@@ -3,6 +3,7 @@ import AdminNotifications from "./AdminNotifications";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
 import styles from "./AdminHomePage.module.css";
+import AdminSideBar from "../components/AdminSideBar";
 const AdminHomePage = () => {
   const [isAdminNotificationsOpen, setAdminNotificationsOpen] = useState(false);
   const navigate = useNavigate();
@@ -73,7 +74,8 @@ const AdminHomePage = () => {
 
   return (
     <>
-      <div className={styles.adminHomePage}>
+      <AdminSideBar />
+      {/* <div className={styles.adminHomePage}>
         <div className={styles.adminHomePageChild} />
         <div className={styles.header}>
           <div className={styles.headerChild} />
@@ -176,7 +178,7 @@ const AdminHomePage = () => {
           <span>{`Welcome, `}</span>
           <span className={styles.admin}>Admin!</span>
         </b>
-      </div>
+      </div> */}
       {isAdminNotificationsOpen && (
         <PortalPopup
           overlayColor="rgba(113, 113, 113, 0.3)"

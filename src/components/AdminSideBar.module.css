@@ -1,0 +1,67 @@
+.adminSibarContainer {
+  position: relative;
+  max-width: 20%;
+  min-width: 300px;
+  min-height: 100vh;
+  padding: 1rem 0;
+  box-sizing: border-box;
+  font-family: var(--font-poppins);
+  background-color: var(--color-dimgray-100);
+  box-shadow: 1px 0 6px var(--color-gainsboro-100);
+}
+
+.bwk {
+  color: var(--color-orange);
+}
+
+.betWiseKenya,
+.sideNavlink,
+.adminSidebarFoot {
+  color: var(--color-white) !important;
+}
+
+.adminSidebarLogo,
+.adminSidebarFoot {
+  text-align: center;
+}
+
+.bwk {
+  font-size: var(--font-size-18xl);
+  font-weight: 500;
+  color: var(--color-orange);
+}
+
+.betWiseKenya {
+  color: var(--color-black);
+  font-size: small;
+  margin-top: -10px;
+  margin-left: 2px;
+  color: var(--color-black);
+}
+
+.sideNavigation {
+  list-style: none;
+  margin-top: 20%;
+  font-size: var(--font-size-mini);
+  color: var(--color-orange);
+}
+
+.sideNavlink {
+  padding: 1rem 3rem;
+  cursor: pointer;
+}
+
+.activeLink {
+  font-weight: 600;
+  border-radius: 2rem 0 0 2rem;
+  color: var(--color-orange) !important;
+  background-color: var(--color-white);
+}
+
+.adminSidebarFoot {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+  font-size: var(--font-size-xs);
+}

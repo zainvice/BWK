@@ -1,10 +1,12 @@
-import styles from "./LiveScore.module.css";
+import Footer from "../components/Footer";
 import Header from "../components/Header";
+import styles from "./LiveScore.module.css";
+
 
 const LiveScore = () => {
 
   return (
-    <>
+    <div>
       <Header />
       <div className={styles.liveScore}>
         <b className={styles.liveScores}>
@@ -14,7 +16,8 @@ const LiveScore = () => {
           <b className={styles.theApiWill}>THE API WILL DISPLAY SCORE HERE</b>
         </div>
       </div>
-    </>
+      <Footer />
+    </div>
   );
 };
 

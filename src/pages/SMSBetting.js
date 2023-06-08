@@ -1,7 +1,9 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import styles from "./SMSBetting.module.css";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+import styles from "./SMSBetting.module.css";
+
 const SMSBetting = () => {
   const navigate = useNavigate();
   
@@ -58,6 +60,8 @@ const SMSBetting = () => {
       <div className={styles.vectorParent}>
         <button className={styles.joinNow} onClick={onGroupContainerClick}>Join Now</button>
       </div>
+
+      <Footer />
     </div>
   );
 };

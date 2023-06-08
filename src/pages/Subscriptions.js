@@ -1,5 +1,6 @@
 import styles from "./Subscriptions.module.css";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Subscriptions_show from "../components/Subscription_show";
 const Subscriptions = () => {
 
@@ -39,6 +40,7 @@ const Subscriptions = () => {
         </b>
       </div>
       <Subscriptions_show/>
+      <Footer />
     </div>
   )
 };

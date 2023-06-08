@@ -1,6 +1,7 @@
-
-import styles from "./CustRequestRecieved.module.css";
+import Footer from "../components/Footer";
 import CHeader from "../components/CustomerHeader";
+import styles from "./CustRequestRecieved.module.css";
+
 const CustRequestRecieved = () => {
   
   return (
@@ -24,7 +25,7 @@ const CustRequestRecieved = () => {
         </p>
       </div>
       
-      
+      <Footer />
     </div>
   );
 };

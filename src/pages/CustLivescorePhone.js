@@ -1,8 +1,9 @@
 import { useState, useCallback } from "react";
+import { useNavigate } from "react-router-dom"; 
 import CustSideBar from "../components/CustSideBar";
 import PortalPopup from "../components/PortalPopup";
-import { useNavigate } from "react-router-dom";
 import styles from "./CustLivescorePhone.module.css";
+
 const CustLivescorePhone = () => {
   const [isCustSideBarOpen, setCustSideBarOpen] = useState(false);
   const navigate = useNavigate();

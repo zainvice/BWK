@@ -1,4 +1,5 @@
 import CHeader from "../components/CustomerHeader";
+import Footer from "../components/Footer";
 import styles from "./CustomerHomePage.module.css";
 const CustomerHomePage = () => {
   return (
@@ -19,7 +20,9 @@ const CustomerHomePage = () => {
       </div>
       <div className={styles.homDescription}>
         <div className={styles.homemDescriptionLeft}>
-          <h1 className={styles.latestTips}>LATEST <span>TIPS</span></h1>
+          <h1 className={styles.latestTips}>
+            LATEST <span>TIPS</span>
+          </h1>
 
           <div className={styles.postedTips}>
             <p>Posted tips will show here</p>
@@ -29,6 +32,7 @@ const CustomerHomePage = () => {
           <img className={styles.image2Icon} alt="" src="/image-2@2x.png" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

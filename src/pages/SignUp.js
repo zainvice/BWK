@@ -1,6 +1,7 @@
 import { useState, useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import PortalPopup from "../components/PortalPopup";
 import TearmsAndConditions from "../components/TearmsAndConditions";
 import contactStyles from "./ContactUs.module.css";
@@ -179,6 +180,7 @@ const SignUp = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
 
       {isTearmsAndConditionsOpen && (

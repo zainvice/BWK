@@ -1,0 +1,128 @@
+.footerContainer{
+  padding: 1.5rem 10%;
+  background: var(--color-gainsboro-100);
+  font-family: var(--font-poppins);
+}
+
+.footer{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.logo{
+  width: 15%
+}
+
+.bwk{
+  font-size: var(--font-size-18xl);
+  font-weight: 500;
+  color: var(--color-orange);
+}
+
+.betWiseKenya{
+  color: var(--color-black);
+  font-size: small;
+  margin-top: -10px;
+  margin-left: 2px;
+  color: var(--color-black);
+}
+
+.browseSiteHomeContainer{
+  width: 65%;
+}
+
+.contactUsEmailContainer{
+  min-width: 200px;
+  width: 20%;
+}
+
+.siteMap,
+.socialLinks{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.siteMap,
+.contactEmail,
+.bwkCopyright p{
+  font-size: var(--font-size-sm);
+  list-style: none;
+  padding: 0;
+}
+
+.siteMap li a,
+.contactEmail li a{
+  cursor: pointer;
+}
+
+.siteMap li a:hover,
+.contactEmail li a:hover{
+  color: var(--color-orange);
+}
+
+.siteMap h5,
+.contactEmail h5{
+  margin: 0;
+  font-size: var(--font-size-sm);
+}
+
+.bwkCopyright{
+  margin-top: 3rem;
+  text-align: center;
+  border-top: 1px solid var(--color-darkgray);
+}
+
+.socialLinks{
+  padding-top: 1rem;
+}
+
+.socialLinks a img{
+  width: 30px;
+  height: 30px;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .footerContainer{
+    padding: 1.5rem 5%;
+  }
+}
+
+@media screen and (max-wdith: 900px) {
+  .footerContainer{
+    padding: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .logo,
+  .browseSiteHomeContainer,
+  .contactUsEmailContainer{
+    width: 33%;
+  }
+
+  .siteMap{
+    flex-flow: column nowrap;
+    align-items: flex-start;
+    gap: 0.3rem;
+  }
+}
+
+
+@media screen and (max-width: 450px) {
+  .footer{
+    text-align: center;
+    flex-flow: column nowrap;
+    gap: 1rem;
+  }
+
+  .logo,
+  .siteMap,
+  .browseSiteHomeContainer,
+  .contactUsEmailContainer{
+    width: 100%;
+    align-items: center;
+  }
+}

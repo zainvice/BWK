@@ -1,6 +1,7 @@
 import { useCallback, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import styles from "./ContactUs.module.css";
 const ContactUs = () => {
   const navigate = useNavigate();
@@ -58,6 +59,7 @@ const ContactUs = () => {
           </div>
         </form>
       </div>
+      <Footer />
     </div>
   );
 };

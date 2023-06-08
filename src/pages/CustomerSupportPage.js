@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import CHeader from "../components/CustomerHeader";
 import styles from "./CustomerSupportPage.module.css";
 import contactStyles from "./ContactUs.module.css";
+import Footer from "../components/Footer";
 
 const CustomerSupportPage = () => {
   const navigate = useNavigate();
@@ -72,6 +73,7 @@ const CustomerSupportPage = () => {
           </div>
         </form>
       </div>
+      <Footer />
     </div>
   );
 };

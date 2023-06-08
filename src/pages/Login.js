@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import Header from "../components/Header";
+import Header from "../components/Header"
+import Footer from "../components/Footer";
 import loginStyles from "./Login.module.css";
 import styles from "./ContactUs.module.css";
 
@@ -68,6 +69,7 @@ const Login = () => {
             </div>
           </form>
         </div>
+        <Footer />
       </div>
     </>
   );

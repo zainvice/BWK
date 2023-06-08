@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import contactStyles from "./ContactUs.module.css";
 import styles from "./RequestRecieved.module.css";
 
@@ -19,6 +20,7 @@ const RequestRecieved = () => {
             </p>
           </div>
         </div>
+        <Footer />
       </div>
     </>
   );

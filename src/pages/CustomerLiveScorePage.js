@@ -1,11 +1,11 @@
-
-import styles from "./LiveScore.module.css";
+import Footer from "../components/Footer";
 import CHeader from "../components/CustomerHeader";
+import styles from "./LiveScore.module.css";
 const CustomerLiveScorePage = () => {
   
 
   return (
-    <>
+    <div>
       <CHeader/>
       <div className={styles.liveScore}>
         <b className={styles.liveScores}>
@@ -16,8 +16,8 @@ const CustomerLiveScorePage = () => {
         </div>
       </div>
      
-      
-      </>
+      <Footer />
+      </div>
   );
 };
 

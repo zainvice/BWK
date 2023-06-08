@@ -25,8 +25,9 @@ const CHeader = () => {
     [isSideBarOpen]
   );
   const onLogoutClick = useCallback(() => {
-    navigate("/homepage");
+    navigate("/");
   }, [navigate]);
+  
   const onCSupportClick = useCallback(() => {
     navigate("/customer-supportpage");
   }, [navigate]);

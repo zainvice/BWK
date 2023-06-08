@@ -13,7 +13,7 @@ const SideBar = ({ onClose }) => {
   }, [navigate]);
 
   const onHomeTextClick = useCallback(() => {
-    navigate("/homepage");
+    navigate("/");
   }, [navigate]);
 
   const onSubscriptionsTextClick = useCallback(() => {

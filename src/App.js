@@ -239,7 +239,6 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />
-      <Route path="/homepage" element={<HomePage />} />
       <Route path="/request-recieved" element={<RequestRecieved />} />
       <Route path="/customer-supportpage" element={<CustomerSupportPage />} />
       <Route

@@ -5,7 +5,7 @@ const CustSideBar = ({ onClose }) => {
   const navigate = useNavigate();
 
   const onLoginSignUpContainerClick = useCallback(() => {
-    navigate("/homepage");
+    navigate("/");
   }, [navigate]);
 
   const onHomeTextClick = useCallback(() => {

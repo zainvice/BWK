@@ -30,23 +30,26 @@
 }
 
 .vectorParent {
-  margin: 2rem 0;
+  margin: 0.5rem 0 1.5rem 0;
   text-align: center;
 }
 
-.joinNow {
-  width: 160px;
-  height: 45px;
-  margin: 0 auto;
-  font-size: large;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
-  border-radius: 1.4rem;
+.joinNow{
+  padding: 0.5rem 1.5rem;
+  font-weight: bolder;
+  border: 2px solid var(--color-orange);
+  border-radius: 1.5rem;
   color: var(--color-white);
-  font-family: var(--font-poppins);
+  font-size: var(--font-size-sm);
   background: var(--color-orange);
-  margin-bottom: 10%;
+  font-family: var(--font-poppins);
+  cursor: pointer;
+}
+
+.joinNow:hover{
+
+  background: var(--color);
+  color: var(--color-orange);
 }
 
 @media screen and (max-width: 1440px) {

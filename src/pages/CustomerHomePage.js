@@ -1,5 +1,5 @@
-import styles from "./CustomerHomePage.module.css";
 import CHeader from "../components/CustomerHeader";
+import styles from "./CustomerHomePage.module.css";
 const CustomerHomePage = () => {
   return (
     <div className={styles.customerHomePage}>

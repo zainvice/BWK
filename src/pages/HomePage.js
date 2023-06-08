@@ -68,7 +68,7 @@ const HomePage = () => {
               </p>
 
               <div className={homeStyles.buttonContainer}>
-                <button className={styles.submit+" "+homeStyles.buttonSignUp} onClick={onSignupClick}>SIGN UP</button>
+                <button className={styles.submit} onClick={onSignupClick}>SIGN UP</button>
               </div>
             </div>
           </div>

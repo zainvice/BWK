@@ -90,10 +90,9 @@ const WebBetting = () => {
             </p>
           </div>
         </div>
-      </div>
-
-      <div className={styles.vectorParent} onClick={onGroupContainerClick}>
-        <button className={styles.joinNow}>Join Now</button>
+        <div className={styles.vectorParent} onClick={onGroupContainerClick}>
+          <button className={styles.joinNow}>Join Now</button>
+        </div>
       </div>
     </div>
   );

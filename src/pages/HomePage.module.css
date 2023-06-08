@@ -10,6 +10,12 @@
   font-family: var(--font-poppins);
 }
 
-.buttonContainer{
-  text-align: right;
+.buttonSignUp{
+  padding: 0.5rem 1.5rem !important; 
+}
+
+@media screen and (min-width: 900px) {
+  .buttonContainer{
+    text-align: right;
+  } 
 }

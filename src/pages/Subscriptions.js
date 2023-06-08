@@ -1,4 +1,3 @@
-import {useCallback} from "react";
 import styles from "./Subscriptions.module.css";
 import Header from "../components/Header";
 import Subscriptions_show from "../components/Subscription_show";

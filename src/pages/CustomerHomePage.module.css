@@ -95,6 +95,7 @@
 }
 
 .homDescriptionRight{
+  padding: 1rem;
   width: 35%;
   text-align: center;
 }
@@ -105,7 +106,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 740px) {
   .image1Icon{
     min-height: 350px;
   }
@@ -136,15 +137,22 @@
   }
 
   .homDescriptionRight img{
-    opacity: 0.5;
+    margin-top: 4rem;
+    opacity: 0.3;
   }
 
   .homemDescriptionLeft{
     position: absolute;
-    top: 50%;
+    top: 0%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     z-index: 10;
     background: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .homDescriptionRight img{
+    margin-top: 10rem;
   }
 }

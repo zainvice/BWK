@@ -79,7 +79,7 @@ div.groupInput{
 
 .termsconditions label,
 .termsconditions button{
-  font-size: var(--font-size-xs);
+  font-size: var(--font-size-2xs);
 }
 
 .signupright{
@@ -122,9 +122,5 @@ div.groupInput{
 @media screen and (max-width: 450px) {
   .form{
     padding: 2rem 1rem;
-  }
-  .termsconditions{
-    flex-flow: column nowrap;
-    align-items: flex-start;
   }
 }

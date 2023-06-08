@@ -1,15 +1,8 @@
-import { useCallback } from "react";
-import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
 import contactStyles from "./ContactUs.module.css";
 import styles from "./RequestRecieved.module.css";
 
 const RequestRecieved = () => {
-  const navigate = useNavigate();
-
-  const onSupportTextClick = useCallback(() => {
-    navigate("/sms-betting");
-  }, [navigate]);
 
   return (
     <>

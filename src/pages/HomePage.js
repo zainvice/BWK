@@ -45,7 +45,7 @@ const HomePage = () => {
             }
           >
             <h1 className={styles.latestTips}>
-              LATEST <span>TIPS</span>
+              What we do <span>for you!</span>
             </h1>
             <div className={homeStyles.welcomeToOurContainer}>
               <p className={styles.welcomeToOur}>
@@ -68,7 +68,7 @@ const HomePage = () => {
               </p>
 
               <div className={homeStyles.buttonContainer}>
-                <button className={styles.submit} onClick={onSignupClick}>SIGN UP</button>
+                <button className={styles.submit} onClick={onSignupClick}>JOIN NOW</button>
               </div>
             </div>
           </div>

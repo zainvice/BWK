@@ -2,6 +2,7 @@ import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Subscriptions.module.css";
 import CHeader from "../components/CustomerHeader";
+import Footer from "../components/Footer";
 import Subscriptions_show from "../components/Subscription_show";
 const CustomerSUBPage = () => {
   const navigate = useNavigate();
@@ -43,13 +44,10 @@ const CustomerSUBPage = () => {
   }, [navigate]);
 
   return (
-    <>
     <div className={styles.customerSubPage}>
-      <CHeader/>
+      <CHeader />
       <div className={styles.subscriptions2}>
-      <b  onClick={onSubscriptionsText1Click}>
-        Subscriptions
-      </b>
+        <b onClick={onSubscriptionsText1Click}>Subscriptions</b>
       </div>
       <div
         className={styles.readyToTakeContainer}
@@ -63,19 +61,15 @@ const CustomerSUBPage = () => {
           <b>Super Multi-Bet!</b>
         </span>
       </div>
-      <div  className={styles.whatWeAreContainer}>
-      <b
-       
-        onClick={onUpgradeYourSubscriptionClick}
-      >
-        <span>Upgrade your</span>
-        <span className={styles.subscription}> Subscription</span>
-      </b>
+      <div className={styles.whatWeAreContainer}>
+        <b onClick={onUpgradeYourSubscriptionClick}>
+          <span>Upgrade your</span>
+          <span className={styles.subscription}> Subscription</span>
+        </b>
       </div>
-     
+      <Subscriptions_show />
+      <Footer />
     </div>
-    <Subscriptions_show/>
-    </>
   );
 };
 

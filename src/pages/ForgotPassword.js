@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import contactStyles from "./ContactUs.module.css";
 import styles from "./ForgotPassword.module.css";
 
@@ -45,6 +46,7 @@ const ForgotPassword = () => {
           </p>
         </form>
       </div>
+      <Footer />
     </div>
   );
 };

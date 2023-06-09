@@ -1,17 +1,19 @@
-import { useNavigate } from "react-router-dom";
-import SideBar from "../components/SideBar";
-import PortalPopup from "../components/PortalPopup";
 import { useState, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import Header from "../components/Header";
+import SideBar from "../components/SideBar";
+import Footer from "../components/Footer";
+import PortalPopup from "../components/PortalPopup";
 import homeStyles from "./HomePage.module.css";
 import styles from "./CustomerHomePage.module.css";
+
 const HomePage = () => {
   const navigate = useNavigate();
   const [isSideBarOpen, setSideBarOpen] = useState(false);
 
   const onSignupClick = useCallback(() => {
-    navigate("/signup")
-  }, [navigate])
+    navigate("/signup");
+  }, [navigate]);
 
   const closeSideBar = useCallback(() => {
     setSideBarOpen(false);
@@ -30,7 +32,12 @@ const HomePage = () => {
             </h1>
             <h3 className={styles.customerName}>Become one of us today!</h3>
             <div>
-              <button className={styles.submit+" "+homeStyles.buttonSignUp} onClick={onSignupClick}>SIGN UP</button>
+              <button
+                className={styles.submit + " " + homeStyles.buttonSignUp}
+                onClick={onSignupClick}
+              >
+                SIGN UP
+              </button>
             </div>
           </div>
         </div>
@@ -45,7 +52,7 @@ const HomePage = () => {
             }
           >
             <h1 className={styles.latestTips}>
-              LATEST <span>TIPS</span>
+              What we do <span>for you!</span>
             </h1>
             <div className={homeStyles.welcomeToOurContainer}>
               <p className={styles.welcomeToOur}>
@@ -68,7 +75,9 @@ const HomePage = () => {
               </p>
 
               <div className={homeStyles.buttonContainer}>
-                <button className={styles.submit} onClick={onSignupClick}>SIGN UP</button>
+                <button className={styles.submit} onClick={onSignupClick}>
+                  JOIN NOW
+                </button>
               </div>
             </div>
           </div>
@@ -76,6 +85,7 @@ const HomePage = () => {
             <img className={styles.image2Icon} alt="" src="/image-2@2x.png" />
           </div>
         </div>
+        <Footer />
       </div>
       {isSideBarOpen && (
         <PortalPopup

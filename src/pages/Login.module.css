@@ -25,7 +25,9 @@
   font-weight: 550;
 }
 @media screen and (max-width: 400px) {
-  .keepSignedIn{
-    flex-flow: column nowrap;
+  .keepSignedIn,
+  .registerNow{
+    font-size:  var(--font-size-2xs);
   }
+  
 }

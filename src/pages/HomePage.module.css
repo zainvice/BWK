@@ -1,6 +1,7 @@
 .homemDescriptionLeft{
   top: 0px !important;
   left: 0px !important;
+  padding: 2rem 1rem !important;
   transform: none !important;
   height: auto !important;
   background: transparent !important;
@@ -10,8 +11,8 @@
   font-family: var(--font-poppins);
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 740px) {
   .buttonContainer{
     text-align: right;
-  } 
+  }
 }

@@ -15,8 +15,6 @@ import AdminBettingTipsPage from "./pages/AdminBettingTipsPage";
 import AdminContentMngPage from "./pages/AdminContentMngPage";
 import AdminSubMngPage from "./pages/AdminSubMngPage";
 import AdminUsrMngPage from "./pages/AdminUsrMngPage";
-import FootorMob from "./pages/FootorMob";
-import Footor from "./pages/Footor";
 import ContactUs from "./pages/ContactUs";
 import LiveScore from "./pages/LiveScore";
 import WebBetting from "./pages/WebBetting";
@@ -252,8 +250,6 @@ function App() {
       <Route path="/admin-contentmngpage" element={<AdminContentMngPage />} />
       <Route path="/admin-submngpage" element={<AdminSubMngPage />} />
       <Route path="/admin-usrmngpage" element={<AdminUsrMngPage />} />
-      <Route path="/footormob" element={<FootorMob />} />
-      <Route path="/footor" element={<Footor />} />
       <Route path="/contact-us" element={<ContactUs />} />
       <Route path="/live-score" element={<LiveScore />} />
       <Route path="/web-betting" element={<WebBetting />} />

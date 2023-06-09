@@ -19,7 +19,7 @@ const Footor = () => {
       </div>
       <div className={styles.browseSiteHomeContainer}>
         <b>{`Browse Site:          `}</b>
-        <span>Home Betting TIps Bet4Me Live score Contact Us</span>
+        <span>Home Subscriptions WebBetting SMS-Betting Live score Contact Us</span>
       </div>
     </div>
   );

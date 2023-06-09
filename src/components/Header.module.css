@@ -35,7 +35,7 @@
   width: 70%;
   font-size: 1rem;
   cursor: pointer;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-mini);
   color: var(--color-black) !important;
 }
 .navbar div:hover{

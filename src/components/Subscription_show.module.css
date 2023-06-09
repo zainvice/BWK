@@ -165,11 +165,12 @@
   
   @media (min-width: 200px) and (max-width: 740px) {
     .subscriptionsContainer{
-      font-size: smaller;
+      font-size: smaller; 
       width: 90%;
       
     }
     .subscriptionOptions{
+      position: relative;
       height: auto;
       padding: 1rem 0;
       background: url("/public/image-5@2x.png");

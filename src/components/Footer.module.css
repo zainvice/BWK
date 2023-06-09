@@ -47,7 +47,7 @@
 .siteMap,
 .contactEmail,
 .bwkCopyright p{
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-mini);
   list-style: none;
   padding: 0;
 }
@@ -65,7 +65,7 @@
 .siteMap h5,
 .contactEmail h5{
   margin: 0;
-  font-size: var(--font-size-sm);
+  font-size: var(--font-size-mini);
 }
 
 .bwkCopyright{

@@ -3,6 +3,7 @@ import AdminNotifications from "./AdminNotifications";
 import PortalPopup from "../components/PortalPopup";
 import { useNavigate } from "react-router-dom";
 import styles from "./AdminUsrMngPage.module.css";
+import AdminSideBar from "../components/AdminSideBar";
 const AdminUsrMngPage = () => {
   const [isAdminNotificationsOpen, setAdminNotificationsOpen] = useState(false);
   const navigate = useNavigate();
@@ -58,67 +59,14 @@ const AdminUsrMngPage = () => {
   return (
     <>
       <div className={styles.adminUsrMngPage}>
-        <img
-          className={styles.image4Icon}
-          alt=""
-          src="/image-41@2x.png"
-          onClick={onImage4Click}
-        />
-        <div className={styles.header}>
-          <div className={styles.headerChild} />
-          <div className={styles.logo} onClick={onLogoContainerClick}>
-            <div className={styles.bwk}>BWK</div>
-            <div className={styles.betWiseKenya}>Bet Wise Kenya</div>
-          </div>
-          <div className={styles.navbar}>
-            <div className={styles.dashboard} onClick={onDashboardTextClick}>
-              Dashboard
-            </div>
-            <div
-              className={styles.userManagement}
-              onClick={onUserManagementTextClick}
-            >
-              User Management
-            </div>
-            <div
-              className={styles.subscriptionManagement}
-              onClick={onSubscriptionManagementTextClick}
-            >
-              Subscription Management
-            </div>
-            <div
-              className={styles.contentManagement}
-              onClick={onContentManagementTextClick}
-            >
-              Content Management
-            </div>
-            <div
-              className={styles.bettingTipsManagement}
-              onClick={onBettingTipsManagementClick}
-            >
-              Betting Tips Management
-            </div>
-            <div
-              className={styles.reportsAndAnalytics}
-              onClick={onReportsAndAnalyticsClick}
-            >
-              Reports And Analytics
-            </div>
-            <img className={styles.vectorIcon} alt="" src="/vector5.svg" />
-            <img className={styles.vectorIcon1} alt="" src="/vector16.svg" />
-            <img className={styles.vectorIcon2} alt="" src="/vector7.svg" />
-            <img className={styles.vectorIcon3} alt="" src="/vector8.svg" />
-            <img className={styles.vectorIcon4} alt="" src="/vector9.svg" />
-            <img className={styles.vectorIcon5} alt="" src="/vector10.svg" />
-          </div>
-        </div>
-        <b
+        <AdminSideBar/>
+       <b
           className={styles.userManagement1}
           onClick={onUserManagementText1Click}
         >
           User Management
         </b>
-        <div className={styles.bwkCopyright}>{`BWK © Copyright 2023 `}</div>
+        
         <div className={styles.adminUsrMngPageChild} />
         <b className={styles.manageUsers} onClick={onManageUsersTextClick}>
           Manage Users

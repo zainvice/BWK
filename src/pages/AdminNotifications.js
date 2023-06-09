@@ -1,6 +1,7 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./AdminNotifications.module.css";
+
 const AdminNotifications = ({ onClose }) => {
   const navigate = useNavigate();
 

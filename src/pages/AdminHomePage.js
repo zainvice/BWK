@@ -6,6 +6,8 @@ import AdminSideBar from "../components/AdminSideBar";
 import styles from "./AdminHomePage.module.css";
 import AdminContainer from "../components/AdminContainer";
 import AdminHeader from "../components/AdminHeader";
+import AdminUnavail from "../components/AdminUnavail";
+
 
 const AdminHomePage = () => {
   const [isAdminNotificationsOpen, setAdminNotificationsOpen] = useState(false);
@@ -23,26 +25,7 @@ const AdminHomePage = () => {
     navigate("/admin-homepage");
   }, [navigate]);
 
-  const onDashboardTextClick = useCallback(() => {
-    navigate("/admin-homepage");
-  }, [navigate]);
-
-  const onUserManagementTextClick = useCallback(() => {
-    navigate("/admin-usrmngpage");
-  }, [navigate]);
-
-  const onSubscriptionManagementTextClick = useCallback(() => {
-    navigate("/admin-submngpage");
-  }, [navigate]);
-
-  const onContentManagementTextClick = useCallback(() => {
-    navigate("/admin-contentmngpage");
-  }, [navigate]);
-
-  const onBettingTipsManagementClick = useCallback(() => {
-    navigate("/admin-bettingtipspage");
-  }, [navigate]);
-
+ 
   const onReportsAndAnalyticsClick = useCallback(() => {
     navigate("/admin-reportspage");
   }, [navigate]);
@@ -81,6 +64,7 @@ const AdminHomePage = () => {
           <div>
             Content
           </div>
+          <AdminUnavail/>
       </AdminContainer>
       {/* <div className={styles.adminHomePage}>
         <div className={styles.adminHomePageChild} />

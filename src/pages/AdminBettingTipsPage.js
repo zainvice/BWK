@@ -4,6 +4,7 @@ import PortalPopup from "../components/PortalPopup";
 import PostTipOverlay from "./PostTipOverlay";
 import { useNavigate } from "react-router-dom";
 import styles from "./AdminBettingTipsPage.module.css";
+import AdminSideBar from "../components/AdminSideBar";
 const AdminBettingTipsPage = () => {
   const [isAdminNotificationsOpen, setAdminNotificationsOpen] = useState(false);
   const [isPostTipOverlayOpen, setPostTipOverlayOpen] = useState(false);
@@ -68,7 +69,8 @@ const AdminBettingTipsPage = () => {
   return (
     <>
       <div className={styles.adminBettingtipsPage}>
-        <img
+        <AdminSideBar/>
+        {/* <img
           className={styles.image4Icon}
           alt=""
           src="/image-41@2x.png"
@@ -121,14 +123,14 @@ const AdminBettingTipsPage = () => {
             <img className={styles.vectorIcon4} alt="" src="/vector9.svg" />
             <img className={styles.vectorIcon5} alt="" src="/vector10.svg" />
           </div>
-        </div>
+        </div> */}
+
         <b
           className={styles.bettingTipsManagement1}
           onClick={onBettingTipsManagement1Click}
         >
           Betting Tips Management
         </b>
-        <div className={styles.bwkCopyright}>{`BWK © Copyright 2023 `}</div>
         <div className={styles.adminBettingtipsPageChild} />
         <b className={styles.bettingTips} onClick={onBettingTipsTextClick}>
           Betting Tips

@@ -38,20 +38,18 @@ const Footer = () => {
       <div className={styles.bwkCopyright}>
         <div className={styles.socialLinks}>
           <a>
-            <img className={styles.reachUsOnImg} src="/phone.svg" />
+            <img className={styles.reachUsOnImg} src="/facebook.svg" />
           </a>
           <a>
-            <img className={styles.reachUsOnImg} src="/whatsapp.svg" />
+            <img className={styles.reachUsOnImg} src="/twitter.svg" />
           </a>
           <a>
-            <img className={styles.reachUsOnImg} src="/send.svg" />
+            <img className={styles.reachUsOnImg} src="/youtube.svg" />
           </a>
           <a>
-            <img className={styles.reachUsOnImg} src="/phone.svg" />
+            <img className={styles.reachUsOnImg} src="/instagram.svg" />
           </a>
-          <a>
-            <img className={styles.reachUsOnImg} src="/whatsapp.svg" />
-          </a>
+          
         </div>
         <p>{`BWK © Copyright 2023 `}</p>
       </div>

@@ -11,10 +11,28 @@
   gap: 1rem;
 }
 
+.adminContent,
+.adminHeader{
+  box-sizing: border-box;
+  padding:  1rem;
+}
+
 .adminHeader {
   height: 80px;
-  padding: 1rem;
   justify-content: space-between;
+}
+
+.adminContent{
+  overflow-x: hidden ;
+  overflow-y: auto;
+  width: calc(100vw - 270px);
+  height: calc(100vh - 80px);
+}
+
+.content{
+  padding: 1.5rem;
+  background: var(--color-gainsboro-200);
+  border-radius: 1.5rem ;
 }
 
 .pageTitle {
@@ -27,14 +45,20 @@
 }
 
 .pageTitle,
-.welcome span {
+.welcome span,
+.notifications {
   color: var(--color-orange);
   font-weight: 600;
+}
+
+.notifications input{
+  display: none;
 }
 
 .support {
   width: 45px;
   height: 45px;
+  cursor: pointer;
   border-radius: 50%;
 }
 

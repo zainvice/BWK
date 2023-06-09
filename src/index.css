@@ -67,7 +67,7 @@ body {
   --color-gainsboro-400: #e6e6e6;
   --color-gainsboro-100: #d9d9d9;
   --color-gainsboro-300: rgba(217, 217, 217, 0.03);
-  --color-gainsboro-200: rgba(217, 217, 217, 0);
+  --color-gainsboro-200: rgba(217, 217, 217, 0.5);
   --color-darkslategray-100: #494949;
   --color-darkslategray-200: #484848;
   --color-darkslategray-300: #3a3a3a;

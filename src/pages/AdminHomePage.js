@@ -1,9 +1,12 @@
 import { useState, useCallback } from "react";
+import { useNavigate } from "react-router-dom";
 import AdminNotifications from "./AdminNotifications";
 import PortalPopup from "../components/PortalPopup";
-import { useNavigate } from "react-router-dom";
-import styles from "./AdminHomePage.module.css";
 import AdminSideBar from "../components/AdminSideBar";
+import styles from "./AdminHomePage.module.css";
+import AdminContainer from "../components/AdminContainer";
+import AdminHeader from "../components/AdminHeader";
+
 const AdminHomePage = () => {
   const [isAdminNotificationsOpen, setAdminNotificationsOpen] = useState(false);
   const navigate = useNavigate();
@@ -74,7 +77,11 @@ const AdminHomePage = () => {
 
   return (
     <>
-      <AdminSideBar />
+      <AdminContainer>
+          <div>
+            Content
+          </div>
+      </AdminContainer>
       {/* <div className={styles.adminHomePage}>
         <div className={styles.adminHomePageChild} />
         <div className={styles.header}>

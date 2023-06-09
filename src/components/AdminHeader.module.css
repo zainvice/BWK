@@ -1,0 +1,44 @@
+.adminLayout {
+  width: 100%;
+  height: 100vh;
+  font-family: var(--font-poppins);
+}
+
+.adminHeader,
+.adminOptions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.adminHeader {
+  height: 80px;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.pageTitle {
+  font-size: var(--font-size-7xl);
+  padding-left: 1rem;
+}
+
+.welcome {
+  font-size: var(--font-size-xs);
+}
+
+.pageTitle,
+.welcome span {
+  color: var(--color-orange);
+  font-weight: 600;
+}
+
+.support {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.supportImg {
+  width: 100%;
+  height: 100%;
+}

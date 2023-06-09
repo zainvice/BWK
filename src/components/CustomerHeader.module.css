@@ -33,7 +33,7 @@
 .navbar{
   justify-content: center;
   gap: 1rem;
-  font-size: 1rem;
+  font-size: var(--font-size-sm);
   cursor: pointer;
   color: var(--color-black) !important;
 }

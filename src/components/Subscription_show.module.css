@@ -38,208 +38,136 @@
 }
 
 
-.optionTipsW,
-.optionTipsS,
-.optionTipsWS,
-.optionTipsWSA,
-.optionTips {
-  position: absolute;
-  margin-left: 78%;
-  top: 15%;
-  font-size: 12px;
-}
-.optionTipsW{
-  top:87%;
-}
-.optionTipsS{
-  top:40%
-}
-.optionTipsWS{
-  top:70%;
-}
-.optionTipsWSA{
-  margin-left: 60%;
-  top:93%;
-}
-.subscriptionPackage {
-  display: flex;
-  align-items: center;
-  margin-top: 20px;
-  
-}
-
-.package-container {
-  flex-grow: 1;
-  text-align: left;
-}
-
-.packageTitle {
-  margin: 30px 55px;
-  margin-top: 40px;
-  font-weight: bold;
-  font-size: 14px;
-}
-
-.packageFeatures {
-  margin: 5px 60px;
-  margin-top: -10px;
-  padding-left: 0;
-  list-style-type: none;
-  font-size: 12px;
-}
-
-.packageFeatures li {
-    margin-bottom: 5px;
-}
-.packageIconB,
-.packageIconV,
-.packageIcon{
-  position: absolute;
-  max-width: 100px;
-  top: 54%;
-  left: 2%;
-}
-.packageIconB{
-      top: 5.5%;
-}
-.packageIconV{
-  top: 81%
-}
-.packageIconS{
-  position: absolute;
-  top:28%;
-  left:2%;
-}
-.packagePricesV,
-.packagePrices {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  left: 52%;
-  margin-top: 11%;
-  font-size: 12px;
-}
-.packagePricesV{
-  margin-top: -4%;
-}
-.priceItem {
-  margin: 3px 0;
-}
-
-.packageFrequency {
-  position: absolute;
-  font-size: 12px;
-  margin-top: 36%;
-  margin-left: 78%;
-}
-
-.package-vip {
-  font-size: 18px;
-}
-
-.readyToTake {
-  margin: 5% 12%;
-  margin-top: 0%;
-  font-size: 12px;
-}
-
-.subscriptionInfo {
-  position: absolute;
-  font-size: 12px;
-  top: 54%;
-  left: 75%;
-}
-@media (min-width: 741px) and (max-width: 1028px) {
-  .subscriptionsContainer{
-
-      width: 100%;
-      height: 70%;
-  }
-  .image{
-      width: 100%;
-  }
-  .subscriptionOptions{
-      max-width: 100%;
-  }
-}
-
-@media (min-width: 200px) and (max-width: 740px) {
-  .subscriptionsContainer{
-    position: relative;
-    font-size: smaller;
-    width: 90%;
+const subscriptions_show = () => {
     
-  }
-  .subscriptionOptions{
-    height: auto;
-    padding: 1rem 0;
-    position: relative;
-    background: url("/public/image-5@2x.png");
-    border-radius: 50px;
-    background-position: center;
-    background-size: cover;
-  }
-  .packageTitle{
-      margin-top: 7%;
-     margin-left: 4%;
-     width: 80%;
-  }
-  .packageFeatures{
-      margin: 0% 0%;
-      margin-left: 10%;
-      margin-top: 0%;
-     
-  }
-  .packagePrices{
-     margin-top: 21%;
-  }
-  .packagePricesV{
-    margin-top: -27%;
-  }
-  .image{
-    display: none;
-  }
-  .optionOffer{
-      display: none;
-  }
-  .optionTips,
-  .optionTipsW,
-  .optionTipsS,
-  .optionTipsWS{
-     
-      display: none;
-  }
-  .packageFrequency{
-      display: none;
-  }
-  .subscriptionInfo{
-      display: none;
-  }
-  
-  .optionPrice{
-      left: 20%;
-      
-  }
-  .optionTipsWSA{
-      left: -13%;
-      top: 92.3%;
-      font-size: x-small;
-  }
-  .packagePrices,
-  .packagePricesV{
-      left: 72%;
-      margin-top: 15%;
-  }
-  .packagePricesV{
-    margin-top: -22%;
-  }
-  .packageIcon,
-  .packageIconB,
-  .packageIconV,
-  .packageIconS{
-      display: none;
-
-  }
- 
+    return (
+      <div className={styles.subscriptionsContainer}>
+        <img className={styles.image} alt="" src="/image-5@2x.png" />
+          <div className={styles.subscriptionOptions}>
+            <b className={styles.optionType}>TYPE</b>
+            <b className={styles.optionPrice}>PRICE</b>
+            <b className={styles.optionOffer}>OFFER</b>
+            <div className={styles.optionTips}>SMS TIPS ONLY</div>
+            <div className={styles.optionTipsW}>SMS+WEB TIPS</div>
+            <div className={styles.optionTipsS}>SMS+WEB TIPS</div>
+            <div className={styles.optionTipsWS}>SMS+WEB TIPS</div>
+            <div className={styles.optionTipsWSA}>(At least 150 odds - Once per week)</div> 
+            <div className={`${styles.subscriptionPackage} ${styles.bronze}`}>
+              <div className={styles.packageContainer}>
+                <p className={styles.packageTitle}>
+                  <b>Bronze (One day)</b>
+                </p>
+                <ul className={styles.packageFeatures}>
+                  <li><span>1X2</span></li>
+                  <li><span>OV1.5/UN1.5</span></li>
+                  <li><span>OV2.5/UN2.5</span></li>
+                  <li><span>BTTS</span></li>
+                  <li><span>HT/FT</span></li>
+                  <li><span>Super Multibet</span></li>
+                </ul>
+              </div>
+              <img className={styles.packageIconB} alt="" src="/vector18.svg" />
+              <div className={styles.packagePrices}>
+                <p className={styles.priceItem}>Ksh 100</p>
+                <p className={styles.priceItem}>Ksh 100</p>
+                <p className={styles.priceItem}>Ksh 150</p>
+                <p className={styles.priceItem}>Ksh 150</p>
+                <p className={styles.priceItem}>Ksh 200</p>
+                <p className={styles.priceItem}>Ksh 300</p>
+              </div>
+            </div>
+              
+            <div className={`${styles.subscriptionPackage} ${styles.silver}`}>
+              <div className={styles.packageContainer}>
+                <p className={styles.packageTitle}>
+                  <b>Silver (Seven days tips)</b>
+                </p>
+                <ul className={styles.packageFeatures}>
+                  <li><span>1X2</span></li>
+                  <li><span>OV1.5/UN1.5</span></li>
+                  <li><span>OV2.5/UN2.5</span></li>
+                  <li><span>BTTS</span></li>
+                  <li><span>HT/FT</span></li>
+                  <li><span>Super Multibet</span></li>
+                  <li><span>Mega jackpot analysis</span></li>
+                  <li><span>Mid-week jackpot analysis</span></li>
+                </ul>
+              </div>
+              <img className={styles.packageIconS} alt="" src="/vector19.svg" />
+              <div className={styles.packagePrices}>
+                <p className={styles.priceItem}>Ksh 600</p>
+                <p className={styles.priceItem}>Ksh 600</p>
+                <p className={styles.priceItem}>Ksh 900</p>
+                <p className={styles.priceItem}>Ksh 900</p>
+                <p className={styles.priceItem}>Ksh 1200</p>
+                <p className={styles.priceItem}>Ksh 1800</p>
+                <p className={styles.priceItem}>Ksh 300</p>
+                <p className={styles.priceItem}>Ksh 200</p>
+              </div>
+              <div className={styles.packageFrequency}>(Once a week)</div>
+            </div>
+              
+            <div className={`${styles.subscriptionPackage} ${styles.gold}`}>
+              <div className={styles.packageContainer}>
+                <p className={styles.packageTitle}>
+                  <b>Gold (14 days tips)</b>
+                </p>
+                <ul className={styles.packageFeatures}>
+                  <li><span>1X2</span></li>
+                  <li><span>OV1.5/UN1.5</span></li>
+                  <li><span>OV2.5/UN2.5</span></li>
+                  <li><span>BTTS</span></li>
+                  <li><span>HT/FT</span></li>
+                  <li><span>Super Multibet</span></li>
+                  <li><span>Mega jackpot analysis</span></li>
+                  <li><span>Mid-week jackpot analysis</span></li>
+                </ul>
+              </div>
+              <div className={styles.packagePrices}>
+                <p className={styles.priceItem}>Ksh 1000</p>
+                <p className={styles.priceItem}>Ksh 1000</p>
+                <p className={styles.priceItem}>Ksh 1500</p>
+                <p className={styles.priceItem}>Ksh 1500</p>
+                <p className={styles.priceItem}>Ksh 2000</p>
+                <p className={styles.priceItem}>Ksh 3000</p>
+                <p className={styles.priceItem}>Ksh 500</p>
+                <p className={styles.priceItem}>Ksh 300</p>
+              </div>
+              <div className={styles.packageFrequency}>(Once a week)</div>
+              <img className={styles.packageIcon} alt="" src="/vector20.svg" />
+            </div>
+              
+            <div className={`${styles.subscriptionPackage} ${styles.vip}`}>
+              <div className={styles.packagePricesV}>
+                <p className={styles.priceItem}>Ksh 3000</p>
+                <p className={styles.priceItem}>Ksh 5000</p>
+                <p className={styles.priceItem}>Ksh 8000</p>
+              </div>
+              <div className={styles.packageContainer}>
+                <p className={`${styles.packageTitle} ${styles.packageVip}`}>
+                  <b>VIP</b>
+                </p>
+                <ul className={styles.packageFeatures}>
+                  <li><span>Weekly</span></li>
+                  <li><span>14 days</span></li>
+                  <li><span>30 days</span></li>
+                </ul>
+                <p className={styles.readyToTake}>Access to all platinum features +</p>
+                <ul className={styles.packageFeatures}>
+                  <li><span>Weekly smasher bet</span></li>
+                  <li><span>Mega jackpot analysis</span></li>
+                  <li><span>Mid-week jackpot analysis</span></li>
+                </ul>
+              </div>
+              <img className={styles.packageIconV} alt="" src="/vector21.svg" />
+            </div>
+              
+          </div>
+         
+          </div>
+          
+   
+    )
 }
+
+export default subscriptions_show

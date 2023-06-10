@@ -12,7 +12,7 @@ const CustomerLiveScorePage = () => {
           Live Scores
         </b>
         <div className={styles.liveScoreChild}>
-          <b className={styles.theApiWill}>THE API WILL DISPLAY SCORE HERE</b>
+          <b className={styles.theApiWill}>THIS FEATURE WILL BE AVAILABLE SOON STAY TUNED</b>
         </div>
       </div>
      

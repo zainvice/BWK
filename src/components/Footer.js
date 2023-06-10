@@ -9,7 +9,7 @@ const Footer = () => {
         </div>
         <div className={styles.browseSiteHomeContainer}>
           <ul className={styles.siteMap}>
-            <h5>Brwose Site: </h5>
+            <h5>Browse Site: </h5>
             <li>
               <a>Home</a>
             </li>
